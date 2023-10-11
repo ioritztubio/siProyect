@@ -61,10 +61,10 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 
-		<sonar.organization>change your data</sonar.organization>
+		<sonar.organization>ioritztubio</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.projectKey>change your data</sonar.projectKey>
-		<sonar.login>change your data</sonar.login>
+		<sonar.projectKey>ioritztubio_sonarTest</sonar.projectKey>
+		<sonar.login>f8ab022edc26ad8b9dedd2362067fe5c4efbcd19</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
