@@ -1023,7 +1023,7 @@ public void open(boolean initializeMode){
 	}
 	
 	
-	public List<Registered> rankingLortu(){
+	public List<Registered> rankingLortu(){ //ioritzMetodoa
 		TypedQuery<Registered> Rquery = db.createQuery("SELECT r FROM Registered r", Registered.class);
 		List<Registered> listR = Rquery.getResultList();
 		List<Registered> ema= new ArrayList<Registered>();
