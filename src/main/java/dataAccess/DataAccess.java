@@ -1050,7 +1050,7 @@ public void open(boolean initializeMode){
 	
 	
 	
-	public boolean gertaerakKopiatu(Event e, Date date) {
+	public boolean gertaerakKopiatu(Event e, Date date) { //Unai metodoa
 		Boolean b=false;
 		Event gertaera = db.find(Event.class, e.getEventNumber());
 		db.getTransaction().begin();
