@@ -1079,7 +1079,7 @@ public void open(boolean initializeMode){
 						db.persist(kuo);
 					}
 				}
-		}
+			}
 		db.getTransaction().commit();
 		return b;
 	}
