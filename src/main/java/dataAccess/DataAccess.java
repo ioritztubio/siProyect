@@ -1024,7 +1024,7 @@ public void open(boolean initializeMode){
 	}
 	
 	
-	public List<Registered> rankingLortu(){//Ioritz metodoa.
+	public List<Registered> rankingLortu(){
 		TypedQuery<Registered> Rquery = db.createQuery("SELECT r FROM Registered r", Registered.class);
 		List<Registered> listR = Rquery.getResultList();
 		List<Registered> ema= new ArrayList<Registered>();
@@ -1063,7 +1063,7 @@ public void open(boolean initializeMode){
 		if(query.getResultList().isEmpty()) {
 			b=true;
 			String[] taldeak = gertaera.getDescription().split("-");
-			Team lokala = new Team(taldeak[0]);
+			Team lokala = new Team(taldeak[0]); 
 			Team kanpokoa = new Team(taldeak[1]);
 			Event gertKopiatu = new Event(gertaera.getDescription(), date, lokala, kanpokoa);
 			gertKopiatu.setSport(gertaera.getSport());

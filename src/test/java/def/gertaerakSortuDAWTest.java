@@ -7,11 +7,13 @@ import static org.junit.Assert.fail;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 import org.junit.Test;
 
 import configuration.ConfigXML;
+import configuration.UtilDate;
 //import dataAccess.DataAccessInterface;
 import dataAccess.DataAccess;
 import domain.Event;
@@ -108,14 +110,14 @@ public class gertaerakSortuDAWTest {
 		 //Parametroak definitu:
 		 String description = "Atletico-Athletic";
 		 String sport = "Futbol";
-		 SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		 Date oneDate=null;;
-			try {
-				oneDate = sdf.parse("17/11/2023");
-			} catch (ParseException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}	
+		
+		 Calendar today = Calendar.getInstance();
+		 int month=today.get(Calendar.MONTH);
+		   month+=1;
+		   int year=today.get(Calendar.YEAR);
+		   if (month==12) { month=0; year+=1;}  
+		   
+		   Date oneDate = UtilDate.newDate(year,month,17);
 		 
 		// Proba 4:data berean duen gertaera bat sortu.
 				try {
@@ -125,43 +127,10 @@ public class gertaerakSortuDAWTest {
 					assertTrue(true);
 				}
 	    
-	      }  			
+	      }  			 
 	        
 	        
 	
 
-	        /**
-	         * 
-	         *  
-	         *  // Prueba 1: Sortu gertaera bat egokia dena.
-	        boolean result1 = db.gertaerakSortu("Barcelona-Barcelona", new Date(), "Futbol");
-	        assertTrue(result1);
-	         * 	        // Prueba 2: Sortu gertaera bat Kirol bat ez datubasean ez dagoenarekin.
-	        boolean result2 = db.gertaerakSortu("Real Madrid-Barcelona", new Date(), "asdfasdf");
-	        assertFalse(result2);
-	         * 
-	         * 
-	         *     
-	        //Prueba 3: Deskripzio bat gaizki 
-	        boolean result3 = sut.gertaerakSortu("Barcelona", new Date(), "Futbol");
-	        assertEquals(result3);
-	      
-	        
-	        Date d = new Date("11/12/2020");
-	        boolean result3= db.gertaerakSortu("Barcelona-Barcelona",d , "Futbol");
-	        assertTrue(result3);
-	            
-	        // Prueba 3: Sortu gertaera bat deskripzio gaizki duena.
-	        boolean result3 = db.gertaerakSortu("Real k-Real Sociedad", new Date(), "Futbol");
-	        assertFalse(result3);
-	    
-	        // Prueba 4: Crear un evento con deporte y fecha válidos
-	        boolean result4 = db.gertaerakSortu("Evento3", new Date(), "Tenis");
-	        assertTrue(result4);
-
-	        // Prueba 5: Crear un evento con un formato de descripción incorrecto
-	        boolean result5 = db.gertaerakSortu("DescripciónIncorrecta", new Date(), "Baloncesto");
-	        assertFalse(result5);
-	        **/
 	    
 }

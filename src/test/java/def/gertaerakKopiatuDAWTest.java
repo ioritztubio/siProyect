@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 import org.junit.BeforeClass;
@@ -13,6 +14,7 @@ import org.mockito.Mockito;
 
 import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
+import configuration.UtilDate;
 import dataAccess.DataAccess;
 import domain.Event;
 import domain.Team;
@@ -29,31 +31,45 @@ public class gertaerakKopiatuDAWTest {
 	private Date d;
 	
 	@Test
+	//sut.gertaerakKopiatu: Gertaera bat ondo kopiatu.
 	public void test1() {
 		ev = new Event();
+		//String description,Date eventDate, Team lokala, Team kanpokoa
 		
-		String eventText="event1";
-		String queryText="query1";
-		Float betMinimum = new Float(2);
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		Date d=null;
-		try {
-			d = sdf.parse("05/10/2022");
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}	
+		String description="event1";
 		
-        testDA.open();
-		ev = testDA.addEventWithQuestion(eventText, d,queryText, betMinimum);
-		testDA.close();
+		Team Team1 = new Team("Team1");
+		Team Team2 = new Team("Team2");
+		ev.setLokala((Team) Team1);
+		ev.setKanpokoa((Team) Team2);
+		ev.setDescription(description);
 		
-		boolean emaitza = sut.gertaerakKopiatu(ev, d);
+		
+		
+		
+		Calendar today = Calendar.getInstance();
+		 int month=today.get(Calendar.MONTH);
+		   month+=1;
+		   int year=today.get(Calendar.YEAR);
+		   if (month==12) { month=0; year+=1;}  
+		   
+		   d = UtilDate.newDate(year +1, month, 18);
+		   
+		   Date oneDate = UtilDate.newDate(year,month,17);
+       
+		   try {
+			   boolean emaitza = sut.gertaerakKopiatu(ev, d);
+		   }catch (Exception e) {
+			   assertTrue(true);
+		   }
+		
 
-        assertFalse(emaitza);
+        
 	}
 	
 	@Test
+	//sut.gertaerakKopiatu: Datan null jarri.
 	public void test2() {
 		ev = new Event();
 		

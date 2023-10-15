@@ -1,0 +1,11 @@
+def\gertaerakSortuDAWTest.class
+def\CreateQuestionDAB.class
+def\CreateQuestionDAW.class
+test\dataAccess\TestDataAccess.class
+def\gertaerakKopiatuDAWTest.class
+def\CreateQuestionBLBMTest.class
+def\CreateQuestionInt.class
+def\gertaerakKopiatuDABTest.class
+def\gertaerakSortuDABTest.class
+def\gertaerakKopiatuBLWMTest.class
+test\businessLogic\TestFacadeImplementation.class

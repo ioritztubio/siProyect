@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: def.CreateQuestionDAB
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.21 sec <<< FAILURE! - in def.CreateQuestionDAB
+test2(def.CreateQuestionDAB)  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "domain.Event.getEventNumber()" because "event" is null
+	at def.CreateQuestionDAB.test2(CreateQuestionDAB.java:106)
+
+test3(def.CreateQuestionDAB)  Time elapsed: 0.058 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot read field "value" because "anotherString" is null
+	at def.CreateQuestionDAB.test3(CreateQuestionDAB.java:144)
+

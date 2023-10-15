@@ -25,7 +25,7 @@ public class Team implements Serializable{
 	
 	public Team() {
 		super();
-	}
+	} 
 	
 	public Team(String izena) {
 		this.izena=izena;
