@@ -123,7 +123,7 @@ public class gertaerakSortuDABTest {
 		 }
 	 
 	 @Test
-		//sut.gertaerakSortu: Deskripzioa null 
+		//sut.gertaerakSortu: Deskripzioa null
 				public void test5() {
 				 
 				 String description = null;
