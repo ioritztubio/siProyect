@@ -43,7 +43,7 @@ public class CreateQuestionDAW {
 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 			Date oneDate=null;;
 			try {
-				oneDate = sdf.parse("05/10/2022");
+				oneDate = sdf.parse("05/10/2022"); 
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

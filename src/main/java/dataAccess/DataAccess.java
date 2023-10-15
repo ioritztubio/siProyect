@@ -305,7 +305,7 @@ public class DataAccess  {
 			apA7.addApustua(ap7);
 			
 			Apustua ap8 = new Apustua(apA8, quote9);
-			apA8.addApustua(ap8);
+			apA8.addApustua(ap8); 
 			
 			Apustua ap9 = new Apustua(apA9, quote8);
 			apA9.addApustua(ap9);
@@ -744,6 +744,7 @@ public void open(boolean initializeMode){
 				String[] taldeak = description.split("-");
 				Team lokala = new Team(taldeak[0]);
 				Team kanpokoa = new Team(taldeak[1]);
+				
 				Event e = new Event(description, eventDate, lokala, kanpokoa);
 				e.setSport(spo);
 				spo.addEvent(e);
