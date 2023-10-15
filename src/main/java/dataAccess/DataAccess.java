@@ -728,7 +728,7 @@ public void open(boolean initializeMode){
 		db.getTransaction().commit();
 	}
 	
-	public boolean gertaerakSortu(String description,Date eventDate, String sport) {
+	public boolean gertaerakSortu(String description,Date eventDate, String sport) { //Ioritz Metodo
 		boolean b = true;
 		db.getTransaction().begin();
 		Sport spo =db.find(Sport.class, sport);
