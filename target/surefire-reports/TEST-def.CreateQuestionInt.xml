@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="def.CreateQuestionInt" time="0.255" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="def.CreateQuestionInt" time="0.197" tests="2" errors="2" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -26,7 +26,7 @@
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Users\Usuario\Desktop\UNI\3ro\1\SI\Proyecto\wkspce1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8666776546081360154.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Usuario\Desktop\UNI\3ro\1\SI\Proyecto\wkspce1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5806258728150943496.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-19/bin/server;C:/Program Files/Java/jdk-19/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Usuario\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32;;."/>
@@ -58,10 +58,10 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="m2e.build.project.data.socket.port" value="55597"/>
+    <property name="m2e.build.project.data.socket.port" value="55708"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="test1" classname="def.CreateQuestionInt" time="0.064">
+  <testcase name="test1" classname="def.CreateQuestionInt" time="0.048">
     <error message="Can&apos;t find bundle for base name Etiquetas, locale es_ES" type="java.util.MissingResourceException">java.util.MissingResourceException: Can't find bundle for base name Etiquetas, locale es_ES
 	at def.CreateQuestionInt.test1(CreateQuestionInt.java:67)
 </error>
@@ -162,7 +162,7 @@ Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary ke
 	... 19 more
 ]]></system-err>
   </testcase>
-  <testcase name="test2" classname="def.CreateQuestionInt" time="0.07">
+  <testcase name="test2" classname="def.CreateQuestionInt" time="0.052">
     <error message="Can&apos;t find bundle for base name Etiquetas, locale es_ES" type="java.util.MissingResourceException">java.util.MissingResourceException: Can't find bundle for base name Etiquetas, locale es_ES
 	at def.CreateQuestionInt.test2(CreateQuestionInt.java:111)
 </error>
