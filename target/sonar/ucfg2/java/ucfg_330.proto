@@ -1,0 +1,84 @@
+
+(domain.Quote#equals(Ljava/lang/Object;)ZI
+?/C:/Users/Usuario/git/siProyect/src/main/java/domain/Quote.javan n("startingBlock*ò
+2p p(Z
+X
+p p(
+qdomain.Quote"__id*3
+
+__unknown_file (
+
+ojava.lang.Object˜•
+q
+ q(
+%1java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*,
+
+__unknown_file (
+domain.Quote2getQuoteNumber()›˜
+q! q(3
+%2java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*/
+
+__unknown_file (
+
+qdomain.Quote2getQuoteNumber()¹
+¶
+q
+ q(3
+%3boolean"	__compare*"
+
+__unknown_file (
+==*5
+
+__unknown_file (
+
+%1java.lang.Integer*5
+
+__unknown_file (
+
+%2java.lang.Integer"
+q q(4
+""*¼
+3o o(¤
+¡
+o o(
+%0boolean"	__compare*"
+
+__unknown_file (
+!=*3
+
+__unknown_file (
+
+ojava.lang.Object*"
+
+__unknown_file (
+""*
+2
+1*€
+startingBlockn n( ˆ
+…
+m m(
+
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*3
+
+__unknown_file (
+
+ojava.lang.ObjectU
+S
+n n(
+ojava.lang.Object"__annotation*"
+
+__unknown_file (
+
+%4*
+3*!
+1s
+ s("
+s s(
+"":!
+n n(
+ojava.lang.ObjectB
+domain.QuoteHX
