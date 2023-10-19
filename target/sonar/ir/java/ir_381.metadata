@@ -1,12 +1,6 @@
-gui.MainGUI#getJContentPane()Ljavax/swing/JPanel;
-gui.MainGUI#getLblNewLabel()Ljavax/swing/JLabel;
-gui.MainGUI#getBoton3()Ljavax/swing/JButton;
-java.awt.GridLayout#<init>(IIII)V
-javax.swing.JPanel#<init>()V
-gui.MainGUI#getBoton2()Ljavax/swing/JButton;
-java.awt.GridLayout#instance-init#
-gui.MainGUI#getPanel()Ljavax/swing/JPanel;
-javax.swing.JPanel#instance-init#
+gui.MainGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;
+javax.swing.JRadioButton#instance-init#
+javax.swing.JRadioButton#<init>(Ljava/lang/String;)V
 ==
-add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
-setLayout java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V
+add javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V

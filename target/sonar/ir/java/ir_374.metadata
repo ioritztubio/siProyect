@@ -1,8 +1,8 @@
-configuration.UtilDate#firstDayMonth(Ljava/util/Date;)Ljava/util/Date;
-java.util.Calendar#getInstance()Ljava/util/Calendar;
-java.util.TimeZone#getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
-java.util.Calendar#setTime(Ljava/util/Date;)V
-java.util.Calendar#getTime()Ljava/util/Date;
+gui.MainGUI#initialize()V
+gui.MainGUI#getJContentPane()Ljavax/swing/JPanel;
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
 ==
-setTimeZone java.util.Calendar#setTimeZone(Ljava/util/TimeZone;)V
-set java.util.Calendar#set(II)V
+setSize java.awt.Window#setSize(II)V
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V
+setContentPane javax.swing.JFrame#setContentPane(Ljava/awt/Container;)V

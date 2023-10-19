@@ -1,15 +1,65 @@
 
-(domain.Team#getIzena()Ljava/lang/String;H
->/C:/Users/Usuario/git/siProyect/src/main/java/domain/Team.java" "("1*—
-1#	 #(b
-`
-#	 #(
-%0java.lang.String"__id*6
+LdataAccess.DataAccess#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;T
+H/home/ioritztubio/git/siProyect/src/main/java/dataAccess/DataAccess.javaý ý("1*Ë
+1
+þ þ(!z
+x
+
+þ þ(!%
+%0javax.persistence.EntityManager"__id*=
 
-__unknown_file (*
-domain.Team"
-izena"$
-# #(
+__unknown_file (!*
+dataAccess.DataAccess"
+dbŸœ
+
+þ9 þ(H
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*4
+
+__unknown_file (
 
-%0java.lang.StringB
-domain.TeamH
+udomain.Registered2getUsername()ÏÌ
+
+þ þ(I
+%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
+
+__unknown_file ('
+%
+%0javax.persistence.EntityManager*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)e
+c
+
+þ þ(J
+regdomain.Registered"__id*5
+
+__unknown_file (
+
+%2domain.RegisteredŸœ
+
+ÿ	 ÿ(
+%3java.lang.Double"0domain.Registered#getDirukop()Ljava/lang/Double;*6
+
+__unknown_file (
+
+regdomain.Registered2getDirukop()˜•
+
+ÿ	 ÿ($
+%4java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3java.lang.Double2
+toString()"&
+
+ÿ ÿ(%
+
+%4java.lang.String:$
+
+ý ý(+
+udomain.RegisteredB
+dataAccess.DataAccessH

@@ -1,65 +1,73 @@
 
-LdataAccess.DataAccess#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;T
-H/C:/Users/Usuario/git/siProyect/src/main/java/dataAccess/DataAccess.javaı ı("1*Ë
+JdataAccess.DataAccess#findEventFromApustua(Ldomain/Apustua;)Ldomain/Event;T
+H/home/ioritztubio/git/siProyect/src/main/java/dataAccess/DataAccess.javaœ œ(""1*À	
 1
-ş ş(!z
+ (z
 x
 
-ş ş(!%
+ (%
 %0javax.persistence.EntityManager"__id*=
 
 __unknown_file (!*
 dataAccess.DataAccess"
-dbŸœ
+db¥¢
 
-ş9 ş(H
-%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*4
+' (;
+%1java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*1
 
-__unknown_file (
-
-udomain.Registered2getUsername()ÏÌ
+__unknown_file (
+
+qdomain.Apustua2getApostuaNumber()ÍÊ
 
-ş ş(I
-%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
+ (<
+%2domain.Apustua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
 
 __unknown_file ('
 %
 %0javax.persistence.EntityManager*"
 
 __unknown_file (
-""*4
-
-__unknown_file (
-
-%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)e
-c
-
-ş ş(J
-regdomain.Registered"__id*5
+""*5
 
 __unknown_file (
 
-%2domain.RegisteredŸœ
+%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)_
+]
 
-ÿ	 ÿ(
-%3java.lang.Double"0domain.Registered#getDirukop()Ljava/lang/Double;*6
+ (=
+quodomain.Apustua"__id*2
 
-__unknown_file (
+__unknown_file (
+
+%2domain.ApustuaŠ
+
+	 (
+%3domain.Quote"'domain.Apustua#getKuota()Ldomain/Quote;*3
 
-regdomain.Registered2getDirukop()˜•
+__unknown_file (
+
+quodomain.Apustua2
+getKuota()”‘
 
-ÿ	 ÿ($
-%4java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*4
+	 (%
+%4domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*0
 
-__unknown_file (
-
-%3java.lang.Double2
-toString()"&
+__unknown_file (
+
+%3domain.Quote2getQuestion()‹
 
-ÿ ÿ(%
-
-%4java.lang.String:$
+	 (0
+%5domain.Event"(domain.Question#getEvent()Ldomain/Event;*3
+
+__unknown_file (
+
+%4domain.Question2
+getEvent()""
 
-ı ı(+
-udomain.RegisteredB
+ (1
+
+%5domain.Event:!
+
+œ# œ(,
+qdomain.ApustuaB
 dataAccess.DataAccessH

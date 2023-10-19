@@ -1,7 +1,8 @@
-dataAccess.DataAccess#findApustuAnitza(Ldomain/Registered;)Ljava/util/List;
+dataAccess.DataAccess#storeRegistered(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
+domain.Registered#instance-init#
+domain.Registered#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
 ==
-setParameter javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;
-getResultList javax.persistence.TypedQuery#getResultList()Ljava/util/List;
-getUsername domain.Registered#getUsername()Ljava/lang/String;
-createQuery javax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;
-find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+persist javax.persistence.EntityManager#persist(Ljava/lang/Object;)V
+begin javax.persistence.EntityTransaction#begin()V
+getTransaction javax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;
+commit javax.persistence.EntityTransaction#commit()V

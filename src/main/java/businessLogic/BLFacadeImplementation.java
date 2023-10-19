@@ -41,7 +41,7 @@ public class BLFacadeImplementation  implements BLFacade {
 		    dbManager.initializeDB();
 		    } else
 		     dbManager=new DataAccess();
-		dbManager.close();
+		dbManager.close();//BLFacadeImplementation metodoan aldaketa bat.
 
 		
 	}

@@ -1,6 +1,6 @@
-dataAccess.DataAccess#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;
-java.lang.Double#toString()Ljava/lang/String;
+dataAccess.DataAccess#findEvent(Ldomain/Quote;)Ldomain/Event;
 ==
-getUsername domain.Registered#getUsername()Ljava/lang/String;
+getEvent domain.Question#getEvent()Ldomain/Event;
+getQuoteNumber domain.Quote#getQuoteNumber()Ljava/lang/Integer;
+getQuestion domain.Quote#getQuestion()Ldomain/Question;
 find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
-getDirukop domain.Registered#getDirukop()Ljava/lang/Double;

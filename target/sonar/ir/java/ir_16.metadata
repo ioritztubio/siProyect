@@ -1,4 +1,3 @@
-dataAccess.DataAccess#close()V
+domain.Team#removeUser(Ldomain/Registered;)V
 ==
-close javax.persistence.EntityManager#close()V
-println java.io.PrintStream#println(Ljava/lang/String;)V
+remove java.util.Vector#remove(Ljava/lang/Object;)Z
