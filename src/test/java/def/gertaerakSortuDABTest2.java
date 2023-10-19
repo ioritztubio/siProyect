@@ -36,7 +36,7 @@ public class gertaerakSortuDABTest2 {
 		//sut.gertaerakSortu: gertaera egoki bat sortu.  
 		public void test1() {
 		 
-		 String description = "TeamA-TeamB";
+		 String description = "TeamA1-TeamB2";
 		 String sport = "Futbol";
 		 
 		 SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -49,7 +49,8 @@ public class gertaerakSortuDABTest2 {
 			}
 		 boolean result1 = sut.gertaerakSortu(description,oneDate, "Futbol");
 	        assertTrue(result1);
-
+	        
+	        
 	 }
 	 
 	 @Test
