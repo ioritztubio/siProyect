@@ -42,7 +42,7 @@ import exceptions.QuoteAlreadyExist;
 public class DataAccess  {
 	protected static EntityManager  db;
 	protected static EntityManagerFactory emf;
-
+//Prueba---------
 
 	ConfigXML c=ConfigXML.getInstance();
 
