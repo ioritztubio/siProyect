@@ -734,25 +734,37 @@ public void open(boolean initializeMode){
 		if(spo!=null) {
 			TypedQuery<Event> Equery = db.createQuery("SELECT e FROM Event e WHERE e.getEventDate() =?1 ",Event.class);
 			Equery.setParameter(1, eventDate);
-			for(Event ev: Equery.getResultList()) {
-				if(ev.getDescription().equals(description)) {
-					b = false;
-				}
-			}
-			if(b) {
-				String[] taldeak = description.split("-");
-				Team lokala = new Team(taldeak[0]);
-				Team kanpokoa = new Team(taldeak[1]);
-				
-				Event e = new Event(description, eventDate, lokala, kanpokoa);
-				e.setSport(spo);
-				spo.addEvent(e);
-				db.persist(e);
+			if(gertaeraBilatu(description, b, Equery)) {//errefaktorizazioa
+				gertaeraOsatu(description, eventDate, b, spo);
+			}else {
+				return false;
 			}
 		}else {
 			return false;
 		}
 		db.getTransaction().commit();
+		return b;
+	}
+
+	private void gertaeraOsatu(String description, Date eventDate, boolean b, Sport spo) { //errefaktorizazioa
+		if(b) {
+			String[] taldeak = description.split("-");
+			Team lokala = new Team(taldeak[0]);
+			Team kanpokoa = new Team(taldeak[1]);
+			
+			Event e = new Event(description, eventDate, lokala, kanpokoa);
+			e.setSport(spo);
+			spo.addEvent(e);
+			db.persist(e);
+		}
+	}
+
+	private boolean gertaeraBilatu(String description, boolean b, TypedQuery<Event> Equery) {//errefaktorizazioa
+		for(Event ev: Equery.getResultList()) {
+			if(ev.getDescription().equals(description)) {
+				b = false;
+			}
+		}
 		return b;
 	}
 	
@@ -832,13 +844,7 @@ public void open(boolean initializeMode){
 			db.getTransaction().begin();
 			ApustuAnitza apustuAnitza = new ApustuAnitza(user, balioa);
 			db.persist(apustuAnitza);
-			for(Quote quo: quote) {
-				Quote kuote = db.find(Quote.class, quo.getQuoteNumber());
-				Apustua ap = new Apustua(apustuAnitza, kuote);
-				db.persist(ap);
-				apustuAnitza.addApustua(ap);
-				kuote.addApustua(ap);
-			}
+			kuotetanApostuaEgin(quote, apustuAnitza);//Errefaktorizazioa.
 			db.getTransaction().commit();
 			db.getTransaction().begin();
 			if(apustuBikoitzaGalarazi==-1) {
@@ -848,37 +854,63 @@ public void open(boolean initializeMode){
 			user.updateDiruKontua(-balioa);
 			Transaction t = new Transaction(user, balioa, new Date(), "ApustuaEgin"); 
 			user.addApustuAnitza(apustuAnitza);
-			for(Apustua a: apustuAnitza.getApustuak()) {
-				Apustua apu = db.find(Apustua.class, a.getApostuaNumber());
-				Quote q = db.find(Quote.class, apu.getKuota().getQuoteNumber());
-				Sport spo =q.getQuestion().getEvent().getSport();
-				spo.setApustuKantitatea(spo.getApustuKantitatea()+1);
-				
-			}
+			apostuakZenbatu(apustuAnitza);//Errefaktorizaioa
 			user.addTransaction(t);
 			db.persist(t);
 			db.getTransaction().commit();
-			for(Jarraitzailea reg:user.getJarraitzaileLista()) {
-				Jarraitzailea erab=db.find(Jarraitzailea.class, reg.getJarraitzaileaNumber());
-				b=true;
-				for(ApustuAnitza apu: erab.getNork().getApustuAnitzak()) {
-					if(apu.getApustuKopia()==apustuAnitza.getApustuKopia()) {
-						b=false;
-					}
-				}
-				if(b) {
-					if(erab.getNork().getDiruLimitea()<balioa) {
-						this.ApustuaEgin(erab.getNork(), quote, erab.getNork().getDiruLimitea(), apustuBikoitzaGalarazi);
-					}else{
-						this.ApustuaEgin(erab.getNork(), quote, balioa, apustuBikoitzaGalarazi);
-					}
-				}
-			}
+			jarraitzaileakKudeatu(quote, balioa, apustuBikoitzaGalarazi, user, apustuAnitza);//Errefaktorizazioa
 			return true; 
 		}else{
 			return false; 
 		}
 		
+	}
+
+	private void jarraitzaileakKudeatu(Vector<Quote> quote, Double balioa, Integer apustuBikoitzaGalarazi,
+			Registered user, ApustuAnitza apustuAnitza) {//Errefaktorizazioa
+		Boolean b;
+		for(Jarraitzailea reg:user.getJarraitzaileLista()) {
+			Jarraitzailea erab=db.find(Jarraitzailea.class, reg.getJarraitzaileaNumber());
+			
+			
+			if(apostuaJadanikExistitzenAhalDa(apustuAnitza, erab)){//Errefaktorizazioa
+				if(erab.getNork().getDiruLimitea()<balioa) {
+					this.ApustuaEgin(erab.getNork(), quote, erab.getNork().getDiruLimitea(), apustuBikoitzaGalarazi);
+				}else{
+					this.ApustuaEgin(erab.getNork(), quote, balioa, apustuBikoitzaGalarazi);
+				}
+			}
+		}
+	}
+
+	private Boolean apostuaJadanikExistitzenAhalDa(ApustuAnitza apustuAnitza, Jarraitzailea erab) {//errefaktorizazioa
+		boolean b = true;
+		for(ApustuAnitza apu: erab.getNork().getApustuAnitzak()) {
+			if(apu.getApustuKopia()==apustuAnitza.getApustuKopia()) {
+				b=false;
+			}
+		}
+		return b;
+	}
+
+	private void apostuakZenbatu(ApustuAnitza apustuAnitza) {
+		for(Apustua a: apustuAnitza.getApustuak()) {
+			Apustua apu = db.find(Apustua.class, a.getApostuaNumber());
+			Quote q = db.find(Quote.class, apu.getKuota().getQuoteNumber());
+			Sport spo =q.getQuestion().getEvent().getSport();
+			spo.setApustuKantitatea(spo.getApustuKantitatea()+1);
+			
+		}
+	}
+
+	private void kuotetanApostuaEgin(Vector<Quote> quote, ApustuAnitza apustuAnitza) {//Errefaktorizazioa
+		for(Quote quo: quote) {
+			Quote kuote = db.find(Quote.class, quo.getQuoteNumber());
+			Apustua ap = new Apustua(apustuAnitza, kuote);
+			db.persist(ap);
+			apustuAnitza.addApustua(ap);
+			kuote.addApustua(ap);
+		}
 	}
 	
 	public void apustuaEzabatu(Registered user1, ApustuAnitza ap) {
@@ -930,16 +962,21 @@ public void open(boolean initializeMode){
 		Registered r = (Registered) db.find(Registered.class, reg.getUsername());
 		db.getTransaction().begin();
 		apustuAnitza.setEgoera("irabazita");
-		Double d=apustuAnitza.getBalioa();
-		for(Apustua ap: apustuAnitza.getApustuak()) {
-			d = d*ap.getKuota().getQuote();
-		}
+		Double d = irabaziaKalkulatu(apustuAnitza); //Errefaktorizazioa.
 		r.updateDiruKontua(d);
 		r.setIrabazitakoa(r.getIrabazitakoa()+d);
 		r.setZenbat(r.getZenbat()+1);
 		Transaction t = new Transaction(r, d, new Date(), "ApustuaIrabazi"); 
 		db.persist(t);
 		db.getTransaction().commit();
+	}
+
+	private Double irabaziaKalkulatu(ApustuAnitza apustuAnitza) {//Errefaktorizazioa
+		double d = 0;
+		for(Apustua ap: apustuAnitza.getApustuak()) {
+			d = apustuAnitza.getBalioa()*ap.getKuota().getQuote();
+		}
+		return d;
 	}
 	
 	public void EmaitzakIpini(Quote quote) throws EventNotFinished{
@@ -1044,6 +1081,12 @@ public void open(boolean initializeMode){
 		List<Registered> listR = Rquery.getResultList();
 		List<Registered> ema= new ArrayList<Registered>();
 		int i;
+		erabiltzaileakOrdenatu(listR, ema);//Errefatorizazioa.
+		return ema;
+	}
+
+	private void erabiltzaileakOrdenatu(List<Registered> listR, List<Registered> ema) {//Errefaktorizazioa.
+		int i;
 		for(Registered r: listR) {
 			if(ema.isEmpty()) {
 				ema.add(0, r);
@@ -1055,7 +1098,6 @@ public void open(boolean initializeMode){
 				ema.add(i, r);
 			}
 		}
-		return ema;
 	}
 	
 	public List<Event> getEventsAll() {	
