@@ -889,15 +889,18 @@ public void open(boolean initializeMode){
 		Transaction t = new Transaction(user, apustuAnitza.getBalioa(), new Date(), "ApustuaEzabatu");
 		user.addTransaction(t);
 		db.persist(t);
+		errefrakz(user, apustuAnitza); //Errefrakzioa
+		db.remove(apustuAnitza);
+		db.getTransaction().commit();
+	}
+
+	private void errefrakz(Registered user, ApustuAnitza apustuAnitza) { //Errefrakzioa
 		user.removeApustua(apustuAnitza);
-		int i;
-		for(i=0; i<apustuAnitza.getApustuak().size(); i++) {
+		for(int i=0; i<apustuAnitza.getApustuak().size(); i++) {
 			apustuAnitza.getApustuak().get(i).getKuota().removeApustua(apustuAnitza.getApustuak().get(i));
 			Sport spo =apustuAnitza.getApustuak().get(i).getKuota().getQuestion().getEvent().getSport();
 			spo.setApustuKantitatea(spo.getApustuKantitatea()-1);
 		}
-		db.remove(apustuAnitza);
-		db.getTransaction().commit();
 	}
 	
 	public List<Apustua> findApustua(Registered u){
