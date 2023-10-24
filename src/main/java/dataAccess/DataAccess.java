@@ -77,8 +77,7 @@ public class DataAccess  {
 		   
 		   Team team1= new Team("Atletico");
 		   Team team2= new Team("Athletic");
-		   /*
-		   Team team3= new Team("Eibar");//
+		   Team team3= new Team("Eibar");
 		   Team team4= new Team("Barcelona");
 		   Team team5= new Team("Getafe");
 		   Team team6= new Team("Celta");
@@ -109,10 +108,9 @@ public class DataAccess  {
 		   Team team31= new Team("Djokovic");
 		   Team team32= new Team("Federer");
 		   
-	    */
+	    
 			Event ev1=new Event(1, "Atletico-Athletic", UtilDate.newDate(year,month,17), team1, team2);
-			
-			/*Event ev2=new Event(2, "Eibar-Barcelona", UtilDate.newDate(year,month,17), team3, team4);
+			Event ev2=new Event(2, "Eibar-Barcelona", UtilDate.newDate(year,month,17), team3, team4);
 			Event ev3=new Event(3, "Getafe-Celta", UtilDate.newDate(year,month,17), team5, team6);
 			Event ev4=new Event(4, "Alaves-Deportivo", UtilDate.newDate(year,month,17), team7, team8);
 			Event ev5=new Event(5, "Espanol-Villareal", UtilDate.newDate(year,month,17), team9, team10);
@@ -143,14 +141,13 @@ public class DataAccess  {
 			
 			Event ev26=new Event(26, "Nadal-Alcaraz", UtilDate.newDate(year,month,1), team29, team30);
 			Event ev27=new Event(27, "Djokovic-Federer", UtilDate.newDate(year,month,17), team31, team32);
-			*/
 			
 			Sport sp1=new Sport("Futbol");
 			Sport sp2=new Sport("Baloncesto");
 			Sport sp3=new Sport("Tennis");
 			
 			sp1.addEvent(ev1);
-			/*sp1.addEvent(ev2);
+			sp1.addEvent(ev2);
 			sp1.addEvent(ev3);
 			sp1.addEvent(ev4);
 			sp1.addEvent(ev5);
@@ -176,9 +173,9 @@ public class DataAccess  {
 			sp2.addEvent(ev25);
 			sp3.addEvent(ev26);
 			sp3.addEvent(ev27);
-			*/
+			
 			ev1.setSport(sp1);
-			/*ev2.setSport(sp1);
+			ev2.setSport(sp1);
 			ev3.setSport(sp1);
 			ev4.setSport(sp1);
 			ev5.setSport(sp1);
@@ -204,10 +201,10 @@ public class DataAccess  {
 			ev25.setSport(sp2);
 			ev26.setSport(sp3);
 			ev27.setSport(sp3);
-			*/
+			
 			Question q1;
 			Question q2;
-			/*Question q3;
+			Question q3;
 			Question q4;
 			Question q5;
 			Question q6;
@@ -216,7 +213,7 @@ public class DataAccess  {
 			Question q9;
 			Question q10;
 			Question q11;
-			*/
+			
 			Registered ad1=new Registered("admin", "123", 1234,true);
 			Registered reg1 =new Registered("registered", "123", 1234);
 			Registered reg2 = new Registered("andrea", "123", 1111);
@@ -226,41 +223,41 @@ public class DataAccess  {
 			if (Locale.getDefault().equals(new Locale("es"))) {
 				q1=ev1.addQuestion("¿Quién ganará el partido?",1);
 				q2=ev1.addQuestion("¿Quién meterá el primer gol?",2);
-				/*q3=ev11.addQuestion("¿Quién ganará el partido?",1);
+				q3=ev11.addQuestion("¿Quién ganará el partido?",1);
 				q4=ev11.addQuestion("¿Cuántos goles se marcarán?",2);
 				q5=ev17.addQuestion("¿Quién ganará el partido?",1);
-				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);*/
+				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);
 				
 			}
 			else if (Locale.getDefault().equals(new Locale("en"))) {
 				q1=ev1.addQuestion("Who will win the match?",1);
 				q2=ev1.addQuestion("Who will score first?",2);
-			/*	q3=ev11.addQuestion("Who will win the match?",1);
+				q3=ev11.addQuestion("Who will win the match?",1);
 				q4=ev11.addQuestion("How many goals will be scored in the match?",2);
 				q5=ev17.addQuestion("Who will win the match?",1);
-				q6=ev17.addQuestion("Will there be goals in the first half?",2);*/
+				q6=ev17.addQuestion("Will there be goals in the first half?",2);
 				
 			}			
 			else {
 				q1=ev1.addQuestion("Zeinek irabaziko du partidua?",1);
 				q2=ev1.addQuestion("Zeinek sartuko du lehenengo gola?",2);
-			/*	q3=ev11.addQuestion("Zeinek irabaziko du partidua?",1);
+				q3=ev11.addQuestion("Zeinek irabaziko du partidua?",1);
 				q4=ev11.addQuestion("Zenbat gol sartuko dira?",2);
 				q5=ev17.addQuestion("Zeinek irabaziko du partidua?",1);
-				q6=ev17.addQuestion("Golak sartuko dira lehenengo zatian?",2);*/
+				q6=ev17.addQuestion("Golak sartuko dira lehenengo zatian?",2);
 				
 				
 			}
-		/*	q7 = ev21.addQuestion("Emaitza?", 1);
+			q7 = ev21.addQuestion("Emaitza?", 1);
 			q8 = ev21.addQuestion("Emaitza?", 1);
 			q9 = ev22.addQuestion("Irabazlea?", 1.5);
 			q10 = ev26.addQuestion("Irabazlea?", 1.5);
 			q11 = ev27.addQuestion("Zeinek irabaziko du lehenengo set-a", 3.0);
-			*/
+			
 			
 			Quote quote1 = q1.addQuote(1.3, "1", q1); 
 			Quote quote2 = q2.addQuote(2.5, "X", q2); 
-		/*	Quote quote3 = q3.addQuote(100.0, "2", q3);
+			Quote quote3 = q3.addQuote(100.0, "2", q3);
 			Quote quote4 = q7.addQuote(2.5, "2", q7);
 			Quote quote5 = q8.addQuote(2.0, "1", q8);
 			Quote quote6 = q7.addQuote(5.0, "1", q7);
@@ -270,7 +267,7 @@ public class DataAccess  {
 			Quote quote10 = q10.addQuote(1.6, "2", q10);
 			Quote quote11 =q11.addQuote(2.3, "1", q11);
 			Quote quote12 =q11.addQuote(1.5, "2", q11);
-			*/
+			
 			ApustuAnitza apA1 = new ApustuAnitza(reg1, 5.0);
 			ApustuAnitza apA3 = new ApustuAnitza(reg4, 34.5);
 			ApustuAnitza apA4 = new ApustuAnitza(reg2, 14.5);
@@ -284,10 +281,10 @@ public class DataAccess  {
 			ApustuAnitza apA12= new ApustuAnitza(reg3, 6.5);
 			ApustuAnitza apA13= new ApustuAnitza(reg2, 6.5);
 		
-			/*Apustua ap1 = new Apustua(apA1, quote4);*/
+			Apustua ap1 = new Apustua(apA1, quote4);
 			Apustua ap2 = new Apustua(apA1, quote1);
 			apA1.addApustua(ap2);
-		/*	apA1.addApustua(ap1);
+			apA1.addApustua(ap1);
 			
 			Apustua ap3 = new Apustua(apA3, quote4);
 			apA3.addApustua(ap3);
@@ -297,13 +294,13 @@ public class DataAccess  {
 			
 			Apustua ap5 = new Apustua(apA5, quote4);
 			apA5.addApustua(ap5);
-			*/
+			
 			Apustua ap6 = new Apustua(apA6, quote1);
 			Apustua ap13 = new Apustua(apA6, quote2);
 			apA6.addApustua(ap6);
 			apA6.addApustua(ap13);
 			
-		/*	Apustua ap7 = new Apustua(apA7, quote7);
+			Apustua ap7 = new Apustua(apA7, quote7);
 			apA7.addApustua(ap7);
 			
 			Apustua ap8 = new Apustua(apA8, quote9);
@@ -359,7 +356,7 @@ public class DataAccess  {
 			ap12.eguneratuApustuKant(sp3);
 			
 			quote8.addApustua(ap14);
-			ap14.eguneratuApustuKant(sp2);*/
+			ap14.eguneratuApustuKant(sp2);
 			
 			reg1.addApustuAnitza(apA1);
 			
@@ -400,7 +397,7 @@ public class DataAccess  {
 			
 			team1.addEvent(ev1);
 			team2.addEvent(ev1);
-		/*	team3.addEvent(ev2);
+			team3.addEvent(ev2);
 			team4.addEvent(ev2);
 			team5.addEvent(ev3);
 			team6.addEvent(ev3);
@@ -451,12 +448,12 @@ public class DataAccess  {
 			team29.addEvent(ev26);
 			team30.addEvent(ev26);
 			team31.addEvent(ev27);
-			team32.addEvent(ev27);*/
+			team32.addEvent(ev27);
 			
 			
 			db.persist(team1);
 			db.persist(team2);
-		/*	db.persist(team3);
+			db.persist(team3);
 			db.persist(team4);
 			db.persist(team5);
 			db.persist(team6);
@@ -498,11 +495,11 @@ public class DataAccess  {
 			db.persist(apA10);
 			db.persist(apA11);
 			db.persist(apA12);
-			db.persist(apA13);*/
+			db.persist(apA13);
 			
 			db.persist(q1);
 			db.persist(q2);
-	/*		db.persist(q3);
+			db.persist(q3);
 			db.persist(q4);
 			db.persist(q5);
 			db.persist(q6);
@@ -512,10 +509,10 @@ public class DataAccess  {
 			db.persist(q10);
 			db.persist(q11);
 			
-			*/
+			
 	        
 			db.persist(ev1);
-		/*	db.persist(ev2);
+			db.persist(ev2);
 			db.persist(ev3);
 			db.persist(ev4);
 			db.persist(ev5);
@@ -540,7 +537,7 @@ public class DataAccess  {
 			db.persist(ev24);
 			db.persist(ev25);
 			db.persist(ev26);
-			db.persist(ev27);*/
+			db.persist(ev27);
 			
 			db.persist(sp1);
 			db.persist(sp2);
@@ -552,10 +549,9 @@ public class DataAccess  {
 			db.persist(reg3);
 			db.persist(reg4);
 			
-			
+			db.persist(quote3);
+			db.persist(quote2); 
 			db.persist(quote1); 
-			db.persist(quote2);
-	/*		db.persist(quote3);
 			db.persist(quote4);
 			db.persist(quote5);
 			db.persist(quote6);
@@ -566,20 +562,20 @@ public class DataAccess  {
 			db.persist(quote11);
 			db.persist(quote12);
 			
-			db.persist(ap1);*/
+			db.persist(ap1);
 			db.persist(ap2);
-			/*db.persist(ap3);
+			db.persist(ap3);
 			db.persist(ap4);
-			db.persist(ap5);*/
+			db.persist(ap5);
 			db.persist(ap6);
-		/*	db.persist(ap7);
+			db.persist(ap7);
 			db.persist(ap8);
 			db.persist(ap9);
 			db.persist(ap10);
 			db.persist(ap11);
 			db.persist(ap12);
 			db.persist(ap13);
-			db.persist(ap14);*/
+			db.persist(ap14);
 			
 			db.persist(t1);
 			db.persist(t3);
