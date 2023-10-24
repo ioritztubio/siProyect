@@ -78,7 +78,7 @@ public class DataAccessGertaerakSortu  {
 		   
 		   Team team1= new Team("Atletico");
 		   Team team2= new Team("Athletic");
-		   Team team3= new Team("Eibar");
+		  /* Team team3= new Team("Eibar");
 		   Team team4= new Team("Barcelona");
 		   Team team5= new Team("Getafe");
 		   Team team6= new Team("Celta");
@@ -108,10 +108,10 @@ public class DataAccessGertaerakSortu  {
 		   Team team30= new Team("Alcaraz");
 		   Team team31= new Team("Djokovic");
 		   Team team32= new Team("Federer");
-		   
+		   */
 	    
 			Event ev1=new Event(1, "Atletico-Athletic", UtilDate.newDate(year,month,17), team1, team2);
-			Event ev2=new Event(2, "Eibar-Barcelona", UtilDate.newDate(year,month,17), team3, team4);
+		/*	Event ev2=new Event(2, "Eibar-Barcelona", UtilDate.newDate(year,month,17), team3, team4);
 			Event ev3=new Event(3, "Getafe-Celta", UtilDate.newDate(year,month,17), team5, team6);
 			Event ev4=new Event(4, "Alaves-Deportivo", UtilDate.newDate(year,month,17), team7, team8);
 			Event ev5=new Event(5, "Espanol-Villareal", UtilDate.newDate(year,month,17), team9, team10);
@@ -119,10 +119,10 @@ public class DataAccessGertaerakSortu  {
 			Event ev7=new Event(7, "Malaga-Valencia", UtilDate.newDate(year,month,17), team13, team14);
 			Event ev8=new Event(8, "Girona-Leganes", UtilDate.newDate(year,month,17), team15, team16);
 			Event ev9=new Event(9, "Real Sociedad-Levante", UtilDate.newDate(year,month,17), team17, team18);
-			Event ev10=new Event(10, "Betis-Real Madrid", UtilDate.newDate(year,month,17), team19, team20);
+			Event ev10=new Event(10, "Betis-Real Madrid", UtilDate.newDate(year,month,17), team19, team20);*/
 
 			Event ev11=new Event(11, "Atletico-Athletic", UtilDate.newDate(year,month,1), team1, team2);
-			Event ev12=new Event(12, "Eibar-Barcelona", UtilDate.newDate(year,month,1), team3, team4);
+		/*	Event ev12=new Event(12, "Eibar-Barcelona", UtilDate.newDate(year,month,1), team3, team4);
 			Event ev13=new Event(13, "Getafe-Celta", UtilDate.newDate(year,month,1), team5, team6);
 			Event ev14=new Event(14, "Alaves-Deportivo", UtilDate.newDate(year,month,1), team7, team8);
 			Event ev15=new Event(15, "Espanol-Villareal", UtilDate.newDate(year,month,1), team9, team10);
@@ -142,13 +142,13 @@ public class DataAccessGertaerakSortu  {
 			
 			Event ev26=new Event(26, "Nadal-Alcaraz", UtilDate.newDate(year,month,1), team29, team30);
 			Event ev27=new Event(27, "Djokovic-Federer", UtilDate.newDate(year,month,17), team31, team32);
-			
+			*/
 			Sport sp1=new Sport("Futbol");
 			Sport sp2=new Sport("Baloncesto");
 			Sport sp3=new Sport("Tennis");
 			
 			sp1.addEvent(ev1);
-			sp1.addEvent(ev2);
+	/*		sp1.addEvent(ev2);
 			sp1.addEvent(ev3);
 			sp1.addEvent(ev4);
 			sp1.addEvent(ev5);
@@ -156,9 +156,9 @@ public class DataAccessGertaerakSortu  {
 			sp1.addEvent(ev7);
 			sp1.addEvent(ev8);
 			sp1.addEvent(ev9);
-			sp1.addEvent(ev10);
+			sp1.addEvent(ev10); */
 			sp1.addEvent(ev11);
-			sp1.addEvent(ev12);
+		/*	sp1.addEvent(ev12);
 			sp1.addEvent(ev13);
 			sp1.addEvent(ev14);
 			sp1.addEvent(ev15);
@@ -173,10 +173,10 @@ public class DataAccessGertaerakSortu  {
 			sp2.addEvent(ev24);
 			sp2.addEvent(ev25);
 			sp3.addEvent(ev26);
-			sp3.addEvent(ev27);
+			sp3.addEvent(ev27);  */
 			
 			ev1.setSport(sp1);
-			ev2.setSport(sp1);
+		/*	ev2.setSport(sp1);
 			ev3.setSport(sp1);
 			ev4.setSport(sp1);
 			ev5.setSport(sp1);
@@ -184,9 +184,9 @@ public class DataAccessGertaerakSortu  {
 			ev7.setSport(sp1);
 			ev8.setSport(sp1);
 			ev9.setSport(sp1);
-			ev10.setSport(sp1);
+			ev10.setSport(sp1);  */
 			ev11.setSport(sp1);
-			ev12.setSport(sp1);
+	/*		ev12.setSport(sp1);
 			ev13.setSport(sp1);
 			ev14.setSport(sp1);
 			ev15.setSport(sp1);
@@ -201,7 +201,7 @@ public class DataAccessGertaerakSortu  {
 			ev24.setSport(sp2);
 			ev25.setSport(sp2);
 			ev26.setSport(sp3);
-			ev27.setSport(sp3);
+			ev27.setSport(sp3); */
 			
 			Question q1;
 			Question q2;
@@ -226,8 +226,8 @@ public class DataAccessGertaerakSortu  {
 				q2=ev1.addQuestion("¿Quién meterá el primer gol?",2);
 				q3=ev11.addQuestion("¿Quién ganará el partido?",1);
 				q4=ev11.addQuestion("¿Cuántos goles se marcarán?",2);
-				q5=ev17.addQuestion("¿Quién ganará el partido?",1);
-				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);
+			/*	q5=ev17.addQuestion("¿Quién ganará el partido?",1);
+				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);  */
 				
 			}
 			else if (Locale.getDefault().equals(new Locale("en"))) {
@@ -235,8 +235,8 @@ public class DataAccessGertaerakSortu  {
 				q2=ev1.addQuestion("Who will score first?",2);
 				q3=ev11.addQuestion("Who will win the match?",1);
 				q4=ev11.addQuestion("How many goals will be scored in the match?",2);
-				q5=ev17.addQuestion("Who will win the match?",1);
-				q6=ev17.addQuestion("Will there be goals in the first half?",2);
+		/*		q5=ev17.addQuestion("Who will win the match?",1);
+				q6=ev17.addQuestion("Will there be goals in the first half?",2);   */
 				
 			}			
 			else {
@@ -244,21 +244,21 @@ public class DataAccessGertaerakSortu  {
 				q2=ev1.addQuestion("Zeinek sartuko du lehenengo gola?",2);
 				q3=ev11.addQuestion("Zeinek irabaziko du partidua?",1);
 				q4=ev11.addQuestion("Zenbat gol sartuko dira?",2);
-				q5=ev17.addQuestion("Zeinek irabaziko du partidua?",1);
-				q6=ev17.addQuestion("Golak sartuko dira lehenengo zatian?",2);
+		/*		q5=ev17.addQuestion("Zeinek irabaziko du partidua?",1);
+				q6=ev17.addQuestion("Golak sartuko dira lehenengo zatian?",2);  */
 				
 				
 			}
-			q7 = ev21.addQuestion("Emaitza?", 1);
+	/*		q7 = ev21.addQuestion("Emaitza?", 1);
 			q8 = ev21.addQuestion("Emaitza?", 1);
 			q9 = ev22.addQuestion("Irabazlea?", 1.5);
 			q10 = ev26.addQuestion("Irabazlea?", 1.5);
-			q11 = ev27.addQuestion("Zeinek irabaziko du lehenengo set-a", 3.0);
+			q11 = ev27.addQuestion("Zeinek irabaziko du lehenengo set-a", 3.0);   */
 			
 			
 			Quote quote1 = q1.addQuote(1.3, "1", q1); 
 			Quote quote2 = q2.addQuote(2.5, "X", q2); 
-			Quote quote3 = q3.addQuote(100.0, "2", q3);
+		/*	Quote quote3 = q3.addQuote(100.0, "2", q3);
 			Quote quote4 = q7.addQuote(2.5, "2", q7);
 			Quote quote5 = q8.addQuote(2.0, "1", q8);
 			Quote quote6 = q7.addQuote(5.0, "1", q7);
@@ -267,11 +267,11 @@ public class DataAccessGertaerakSortu  {
 			Quote quote9 = q10.addQuote(2.5, "1", q10);
 			Quote quote10 = q10.addQuote(1.6, "2", q10);
 			Quote quote11 =q11.addQuote(2.3, "1", q11);
-			Quote quote12 =q11.addQuote(1.5, "2", q11);
+			Quote quote12 =q11.addQuote(1.5, "2", q11);    */
 			
 			ApustuAnitza apA1 = new ApustuAnitza(reg1, 5.0);
 			ApustuAnitza apA3 = new ApustuAnitza(reg4, 34.5);
-			ApustuAnitza apA4 = new ApustuAnitza(reg2, 14.5);
+		/*	ApustuAnitza apA4 = new ApustuAnitza(reg2, 14.5);
 			ApustuAnitza apA5 = new ApustuAnitza(reg3, 10.0);
 			ApustuAnitza apA6 = new ApustuAnitza(reg4, 4.5);
 			ApustuAnitza apA7 = new ApustuAnitza(reg1, 6.0);
@@ -280,17 +280,17 @@ public class DataAccessGertaerakSortu  {
 			ApustuAnitza apA10= new ApustuAnitza(reg2, 7.5);
 			ApustuAnitza apA11= new ApustuAnitza(reg3, 4.5);
 			ApustuAnitza apA12= new ApustuAnitza(reg3, 6.5);
-			ApustuAnitza apA13= new ApustuAnitza(reg2, 6.5);
+			ApustuAnitza apA13= new ApustuAnitza(reg2, 6.5);    */
 		
-			Apustua ap1 = new Apustua(apA1, quote4);
+	/*		Apustua ap1 = new Apustua(apA1, quote4);  */
 			Apustua ap2 = new Apustua(apA1, quote1);
 			apA1.addApustua(ap2);
-			apA1.addApustua(ap1);
+	/*		apA1.addApustua(ap1); 
 			
 			Apustua ap3 = new Apustua(apA3, quote4);
-			apA3.addApustua(ap3);
+			apA3.addApustua(ap3);*/
 			
-			Apustua ap4 = new Apustua(apA4, quote4);
+		/*	Apustua ap4 = new Apustua(apA4, quote4);
 			apA4.addApustua(ap4);
 			
 			Apustua ap5 = new Apustua(apA5, quote4);
@@ -333,7 +333,7 @@ public class DataAccessGertaerakSortu  {
 			quote4.addApustua(ap4);
 			ap4.eguneratuApustuKant(sp1);
 					
-			quote4.addApustua(ap5);
+			quote4.addApustua(ap5); 
 			ap5.eguneratuApustuKant(sp1);
 						
 			quote1.addApustua(ap6);
@@ -357,7 +357,7 @@ public class DataAccessGertaerakSortu  {
 			ap12.eguneratuApustuKant(sp3);
 			
 			quote8.addApustua(ap14);
-			ap14.eguneratuApustuKant(sp2);
+			ap14.eguneratuApustuKant(sp2);*/
 			
 			reg1.addApustuAnitza(apA1);
 			
@@ -369,10 +369,10 @@ public class DataAccessGertaerakSortu  {
 			
 			
 			Transaction t1 = new Transaction(reg1, apA1.getBalioa(), new Date(), "ApustuaEgin");
-			Transaction t3 = new Transaction(reg2, apA4.getBalioa(), new Date(), "ApustuaEgin");
-			Transaction t4 = new Transaction(reg3, apA5.getBalioa(), new Date(), "ApustuaEgin");
+	/*		Transaction t3 = new Transaction(reg2, apA4.getBalioa(), new Date(), "ApustuaEgin");
+			Transaction t4 = new Transaction(reg3, apA5.getBalioa(), new Date(), "ApustuaEgin");*/
 			Transaction t5 = new Transaction(reg4, apA3.getBalioa(), new Date(), "ApustuaEgin");
-			Transaction t6 = new Transaction(reg4, apA6.getBalioa(), new Date(), "ApustuaEgin");
+	/*		Transaction t6 = new Transaction(reg4, apA6.getBalioa(), new Date(), "ApustuaEgin");
 			Transaction t7 = new Transaction(reg1, apA7.getBalioa(), new Date(), "ApustuaEgin");
 			Transaction t8 = new Transaction(reg1, apA8.getBalioa(), new Date(), "ApustuaEgin");
 			Transaction t9 = new Transaction(reg2, apA9.getBalioa(), new Date(), "ApustuaEgin");
@@ -382,23 +382,23 @@ public class DataAccessGertaerakSortu  {
 			
 			reg1.addTransaction(t1);
 			reg2.addTransaction(t3);
-			reg3.addTransaction(t4);
+			reg3.addTransaction(t4);*/
 			reg4.addTransaction(t5);
-			reg4.addTransaction(t6);
+		/*	reg4.addTransaction(t6);
 			reg1.addTransaction(t7);
 			reg1.addTransaction(t8);
 			reg2.addTransaction(t9);
 			reg2.addTransaction(t10);
 			reg3.addTransaction(t11);
 			reg3.addTransaction(t12);
-			
+			*/
 			
 			
 			
 			
 			team1.addEvent(ev1);
 			team2.addEvent(ev1);
-			team3.addEvent(ev2);
+	/*		team3.addEvent(ev2);
 			team4.addEvent(ev2);
 			team5.addEvent(ev3);
 			team6.addEvent(ev3);
@@ -415,10 +415,10 @@ public class DataAccessGertaerakSortu  {
 			team17.addEvent(ev9);
 			team18.addEvent(ev9);
 			team19.addEvent(ev10);
-			team20.addEvent(ev10);
+			team20.addEvent(ev10);   */
 			team1.addEvent(ev11);
 			team2.addEvent(ev11);
-			team3.addEvent(ev12);
+		/*	team3.addEvent(ev12);
 			team4.addEvent(ev12);
 			team5.addEvent(ev13);
 			team6.addEvent(ev13);
@@ -445,16 +445,16 @@ public class DataAccessGertaerakSortu  {
 			team25.addEvent(ev24);
 			team26.addEvent(ev24);
 			team27.addEvent(ev25);
-			team28.addEvent(ev25);
+			team28.addEvent(ev25);   
 			team29.addEvent(ev26);
 			team30.addEvent(ev26);
 			team31.addEvent(ev27);
 			team32.addEvent(ev27);
-			
+			*/
 			
 			db.persist(team1);
 			db.persist(team2);
-			db.persist(team3);
+		/*	db.persist(team3);
 			db.persist(team4);
 			db.persist(team5);
 			db.persist(team6);
@@ -483,11 +483,11 @@ public class DataAccessGertaerakSortu  {
 			db.persist(team29);
 			db.persist(team30);
 			db.persist(team31);
-			db.persist(team32);
+			db.persist(team32);   */
 			
 			db.persist(apA1);
 			db.persist(apA3);
-			db.persist(apA4);
+	/*		db.persist(apA4);
 			db.persist(apA5);
 			db.persist(apA6);
 			db.persist(apA7);
@@ -496,24 +496,24 @@ public class DataAccessGertaerakSortu  {
 			db.persist(apA10);
 			db.persist(apA11);
 			db.persist(apA12);
-			db.persist(apA13);
+			db.persist(apA13);   */
 			
 			db.persist(q1);
 			db.persist(q2);
 			db.persist(q3);
 			db.persist(q4);
-			db.persist(q5);
+	/*		db.persist(q5);
 			db.persist(q6);
 			db.persist(q7);
 			db.persist(q8);
 			db.persist(q9);
 			db.persist(q10);
-			db.persist(q11);
+			db.persist(q11);  */
 			
 			
 	        
 			db.persist(ev1);
-			db.persist(ev2);
+		/*	db.persist(ev2);
 			db.persist(ev3);
 			db.persist(ev4);
 			db.persist(ev5);
@@ -521,9 +521,9 @@ public class DataAccessGertaerakSortu  {
 			db.persist(ev7);
 			db.persist(ev8);
 			db.persist(ev9);
-			db.persist(ev10);
+			db.persist(ev10);   */
 			db.persist(ev11);
-			db.persist(ev12);
+	/*		db.persist(ev12);
 			db.persist(ev13);
 			db.persist(ev14);
 			db.persist(ev15);
@@ -538,7 +538,7 @@ public class DataAccessGertaerakSortu  {
 			db.persist(ev24);
 			db.persist(ev25);
 			db.persist(ev26);
-			db.persist(ev27);
+			db.persist(ev27);   */
 			
 			db.persist(sp1);
 			db.persist(sp2);
@@ -550,10 +550,10 @@ public class DataAccessGertaerakSortu  {
 			db.persist(reg3);
 			db.persist(reg4);
 			
-			db.persist(quote3);
+	/*		db.persist(quote3); */
 			db.persist(quote2); 
 			db.persist(quote1); 
-			db.persist(quote4);
+	/*		db.persist(quote4);
 			db.persist(quote5);
 			db.persist(quote6);
 			db.persist(quote7);
@@ -561,11 +561,11 @@ public class DataAccessGertaerakSortu  {
 			db.persist(quote9);
 			db.persist(quote10);
 			db.persist(quote11);
-			db.persist(quote12);
+			db.persist(quote12);  */
 			
-			db.persist(ap1);
+		/*	db.persist(ap1);  */
 			db.persist(ap2);
-			db.persist(ap3);
+	/*		db.persist(ap3);
 			db.persist(ap4);
 			db.persist(ap5);
 			db.persist(ap6);
@@ -576,19 +576,19 @@ public class DataAccessGertaerakSortu  {
 			db.persist(ap11);
 			db.persist(ap12);
 			db.persist(ap13);
-			db.persist(ap14);
+			db.persist(ap14);  */
 			
 			db.persist(t1);
-			db.persist(t3);
-			db.persist(t4);
+	/*		db.persist(t3);
+			db.persist(t4);   */
 			db.persist(t5);
-			db.persist(t6);
+	/*		db.persist(t6);
 			db.persist(t7);
 			db.persist(t8);
 			db.persist(t9);
 			db.persist(t10);
 			db.persist(t11);
-			db.persist(t12);
+			db.persist(t12);   */
 			
 			
 			
