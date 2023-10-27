@@ -841,29 +841,40 @@ public void open(boolean initializeMode){
 		Registered user = (Registered) db.find(Registered.class, u.getUsername());
 		Boolean b;
 		if(user.getDirukop()>=balioa) {
-			db.getTransaction().begin();
-			ApustuAnitza apustuAnitza = new ApustuAnitza(user, balioa);
-			db.persist(apustuAnitza);
-			kuotetanApostuaEgin(quote, apustuAnitza);//Errefaktorizazioa.
-			db.getTransaction().commit();
-			db.getTransaction().begin();
-			if(apustuBikoitzaGalarazi==-1) {
-				apustuBikoitzaGalarazi=apustuAnitza.getApustuAnitzaNumber();
-			}
-			apustuAnitza.setApustuKopia(apustuBikoitzaGalarazi);
-			user.updateDiruKontua(-balioa);
-			Transaction t = new Transaction(user, balioa, new Date(), "ApustuaEgin"); 
-			user.addApustuAnitza(apustuAnitza);
-			apostuakZenbatu(apustuAnitza);//Errefaktorizaioa
-			user.addTransaction(t);
-			db.persist(t);
-			db.getTransaction().commit();
+			ApustuAnitza apustuAnitza = apostuaSortu(quote, balioa, user); //Refactor
+			apustuBikoitzaGalarazi = apustuAnitzakKudeatu(balioa, apustuBikoitzaGalarazi, user, apustuAnitza);
 			jarraitzaileakKudeatu(quote, balioa, apustuBikoitzaGalarazi, user, apustuAnitza);//Errefaktorizazioa
 			return true; 
 		}else{
 			return false; 
 		}
 		
+	}
+
+	private Integer apustuAnitzakKudeatu(Double balioa, Integer apustuBikoitzaGalarazi, Registered user,
+			ApustuAnitza apustuAnitza) {
+		db.getTransaction().begin();
+		if(apustuBikoitzaGalarazi==-1) {
+			apustuBikoitzaGalarazi=apustuAnitza.getApustuAnitzaNumber();
+		}
+		apustuAnitza.setApustuKopia(apustuBikoitzaGalarazi);
+		user.updateDiruKontua(-balioa);
+		Transaction t = new Transaction(user, balioa, new Date(), "ApustuaEgin"); 
+		user.addApustuAnitza(apustuAnitza);
+		apostuakZenbatu(apustuAnitza);//Errefaktorizaioa
+		user.addTransaction(t);
+		db.persist(t);
+		db.getTransaction().commit();
+		return apustuBikoitzaGalarazi;
+	}
+
+	private ApustuAnitza apostuaSortu(Vector<Quote> quote, Double balioa, Registered user) {
+		db.getTransaction().begin();
+		ApustuAnitza apustuAnitza = new ApustuAnitza(user, balioa);
+		db.persist(apustuAnitza);
+		kuotetanApostuaEgin(quote, apustuAnitza);//Errefaktorizazioa.
+		db.getTransaction().commit();
+		return apustuAnitza;
 	}
 
 	private void jarraitzaileakKudeatu(Vector<Quote> quote, Double balioa, Integer apustuBikoitzaGalarazi,
