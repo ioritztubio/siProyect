@@ -61,7 +61,7 @@
 			<url>https://m2.objectdb.com</url>
 		</repository>
 	</repositories>
-	<properties>
+	<properties> 
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<sonar.organization>ioritztubio</sonar.organization>
