@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: def.gertaerakKopiatuDABTest2
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec <<< FAILURE! - in def.gertaerakKopiatuDABTest2
-test1(def.gertaerakKopiatuDABTest2)  Time elapsed: 0.018 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec <<< FAILURE! - in def.gertaerakKopiatuDABTest2
+test1(def.gertaerakKopiatuDABTest2)  Time elapsed: 0.028 sec  <<< FAILURE!
 java.lang.AssertionError
 	at def.gertaerakKopiatuDABTest2.test1(gertaerakKopiatuDABTest2.java:57)
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="def.gertaerakSortuDABTest2" time="0.75" tests="7" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="def.gertaerakSortuDABTest2" time="0.922" tests="7" errors="0" skipped="0" failures="1">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -23,7 +23,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/ioritztubio/Documents/UNI/3/1/SI2/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf17936954188414530462.tmp"/>
+    <property name="classworlds.conf" value="/home/ioritztubio/Documents/UNI/3/1/SI2/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf12418728179085815423.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
@@ -56,9 +56,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
-    <property name="m2e.build.project.data.socket.port" value="33965"/>
+    <property name="m2e.build.project.data.socket.port" value="40227"/>
   </properties>
-  <testcase name="test1" classname="def.gertaerakSortuDABTest2" time="0.657">
+  <testcase name="test1" classname="def.gertaerakSortuDABTest2" time="0.81">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at def.gertaerakSortuDABTest2.test1(gertaerakSortuDABTest2.java:50)
 </failure>
@@ -69,10 +69,10 @@ Creating TestDataAccess instance
 Opening TestDataAccess instance 
 ]]></system-out>
   </testcase>
-  <testcase name="test2" classname="def.gertaerakSortuDABTest2" time="0.002"/>
-  <testcase name="test3" classname="def.gertaerakSortuDABTest2" time="0.017"/>
+  <testcase name="test2" classname="def.gertaerakSortuDABTest2" time="0.004"/>
+  <testcase name="test3" classname="def.gertaerakSortuDABTest2" time="0.022"/>
   <testcase name="test4" classname="def.gertaerakSortuDABTest2" time="0"/>
-  <testcase name="test5" classname="def.gertaerakSortuDABTest2" time="0.001"/>
+  <testcase name="test5" classname="def.gertaerakSortuDABTest2" time="0"/>
   <testcase name="test6" classname="def.gertaerakSortuDABTest2" time="0"/>
-  <testcase name="test7" classname="def.gertaerakSortuDABTest2" time="0"/>
+  <testcase name="test7" classname="def.gertaerakSortuDABTest2" time="0.001"/>
 </testsuite>

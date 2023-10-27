@@ -3089,7 +3089,7 @@ bets,com.toedter.calendar.demo,JCalendarDemo.new PropertyChangeListener() {...},
 bets,com.toedter.calendar.demo,JCalendarDemo.new ActionListener() {...},28,0,0,0,0,0,2,0,2,0
 bets,com.toedter.calendar.demo,JCalendarDemo.new JPanel() {...},12,0,0,0,0,0,2,0,2,0
 bets,com.toedter.calendar.demo,DemoTable,48,0,2,0,0,0,2,0,1,0
-bets,businessLogic,BLFacadeImplementation,555,36,6,2,155,12,40,2,36,2
+bets,businessLogic,BLFacadeImplementation,560,40,6,2,155,13,40,2,36,2
 bets,businessLogic,BusinessLogicServer.new ActionListener() {...},14,0,0,0,4,0,2,0,2,0
 bets,businessLogic,BusinessLogicServer.new WindowAdapter() {...},9,0,0,0,3,0,2,0,2,0
 bets,businessLogic,BusinessLogicServer,233,0,4,0,48,0,4,0,2,0

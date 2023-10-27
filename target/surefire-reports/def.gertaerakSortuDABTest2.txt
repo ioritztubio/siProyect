@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: def.gertaerakSortuDABTest2
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.75 sec <<< FAILURE! - in def.gertaerakSortuDABTest2
-test1(def.gertaerakSortuDABTest2)  Time elapsed: 0.657 sec  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.922 sec <<< FAILURE! - in def.gertaerakSortuDABTest2
+test1(def.gertaerakSortuDABTest2)  Time elapsed: 0.81 sec  <<< FAILURE!
 java.lang.AssertionError
 	at def.gertaerakSortuDABTest2.test1(gertaerakSortuDABTest2.java:50)
 
