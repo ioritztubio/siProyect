@@ -1,57 +1,15 @@
 
-LdataAccess.DataAccess#findQuestionFromQuote(Ldomain/Quote;)Ldomain/Question;T
-H/home/ioritztubio/git/siProyect/src/main/java/dataAccess/DataAccess.java° °(&"1*ï
-1
-¢ ¢(z
+@domain.Jarraitzailea#getJarraitzaileaNumber()Ljava/lang/Integer;∑
+¨/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/domain/Jarraitzailea.java$ $(&"1*∞
+1%	 %(z
 x
-
-¢ ¢(%
-%0javax.persistence.EntityManager"__id*=
+%	 %(
+%0java.lang.Integer"__id*M
 
-__unknown_file (!*
-dataAccess.DataAccess"
-dbùö
-
-¢# ¢(5
-%1java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*/
-
-__unknown_file (
-
-qdomain.Quote2getQuoteNumber()À»
-
-¢ ¢(6
-%2domain.Quote"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
-
-__unknown_file ('
-%
-%0javax.persistence.EntityManager*"
-
-__unknown_file (
-""*5
-
-__unknown_file (
+__unknown_file (1*/
+domain.Jarraitzailea"
+jarraitzaileaNumber"%
+% %(
 
-%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)[
-Y
-
-¢ ¢(7
-quodomain.Quote"__id*0
-
-__unknown_file (
-
-%2domain.Quoteïí
-
-£	 £(
-%3domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*1
-
-__unknown_file (
-
-quodomain.Quote2getQuestion()"%
-
-£ £(
-
-%3domain.Question:
-
-°' °(.
-qdomain.QuoteB
-dataAccess.DataAccessH
+%0java.lang.IntegerB
+domain.JarraitzaileaH

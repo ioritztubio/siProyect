@@ -1,1 +1,9 @@
-domain.Registered#setBankAccount(Ljava/lang/Integer;)V
+dataaccess.DataAccess#jarraitzaileakKudeatu(Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;Ldomain/Registered;Ldomain/ApustuAnitza;)V
+dataaccess.DataAccess#apostuaJadanikExistitzenAhalDa(Ldomain/ApustuAnitza;Ldomain/Jarraitzailea;)Ljava/lang/Boolean;
+==
+ApustuaEgin dataaccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z
+getNork domain.Jarraitzailea#getNork()Ldomain/Registered;
+getDiruLimitea domain.Registered#getDiruLimitea()Ljava/lang/Double;
+getJarraitzaileLista domain.Registered#getJarraitzaileLista()Ljava/util/Vector;
+getJarraitzaileaNumber domain.Jarraitzailea#getJarraitzaileaNumber()Ljava/lang/Integer;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;

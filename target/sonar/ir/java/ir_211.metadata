@@ -1,5 +1,5 @@
-businessLogic.BLFacadeImplementation#close()V
-dataAccess.DataAccess#instance-init#
-dataAccess.DataAccess#<init>(Z)V
+businessLogic.BLFacadeImplementation#findEventFromApustua(Ldomain/Apustua;)Ldomain/Event;
 ==
-close dataAccess.DataAccess#close()V
+findEventFromApustua dataaccess.DataAccess#findEventFromApustua(Ldomain/Apustua;)Ldomain/Event;
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

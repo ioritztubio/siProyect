@@ -1,1 +1,5 @@
-domain.Event#hashCode()I
+businessLogic.BLFacadeImplementation#findQuestion(Ldomain/Event;)Ljava/util/Collection;
+==
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V
+findQuestion dataaccess.DataAccess#findQuestion(Ldomain/Event;)Ljava/util/Collection;

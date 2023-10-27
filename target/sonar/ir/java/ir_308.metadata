@@ -1,1 +1,3 @@
-exceptions.ApustuaAlreadyExist#instance-init#
+domain.Registered#addJarraitutako(Ldomain/Jarraitzailea;)V
+==
+add java.util.Vector#add(Ljava/lang/Object;)Z

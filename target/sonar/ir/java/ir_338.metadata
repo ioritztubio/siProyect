@@ -1,3 +1,5 @@
-domain.Registered#addJarraitutako(Ldomain/Jarraitzailea;)V
+dataaccess.DataAccess#findTeam(Ldomain/Registered;)Ldomain/Team;
 ==
-add java.util.Vector#add(Ljava/lang/Object;)Z
+getUsername domain.Registered#getUsername()Ljava/lang/String;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+getTaldea domain.Registered#getTaldea()Ldomain/Team;

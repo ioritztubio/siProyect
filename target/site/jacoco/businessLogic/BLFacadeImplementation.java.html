@@ -10,7 +10,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 import configuration.ConfigXML;
-import dataAccess.DataAccess;
+import dataaccess.DataAccess;
 import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
@@ -41,7 +41,7 @@ public class BLFacadeImplementation  implements BLFacade {
 <span class="nc" id="L41">		    dbManager.initializeDB();</span>
 		    } else
 <span class="nc" id="L43">		     dbManager=new DataAccess();</span>
-<span class="nc" id="L44">		dbManager.close();</span>
+<span class="nc" id="L44">		dbManager.close();//BLFacadeImplementation metodoan aldaketa bat..</span>
 
 		
 <span class="nc" id="L47">	}</span>

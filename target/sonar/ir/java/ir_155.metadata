@@ -1,1 +1,6 @@
-domain.ApustuAnitza#getEgoera()Ljava/lang/String;
+dataaccess.DataAccessGertaerakSortu#<init>(Z)V
+==
+getDataBaseOpenMode configuration.ConfigXML#getDataBaseOpenMode()Ljava/lang/String;
+println java.io.PrintStream#println(Ljava/lang/String;)V
+isDatabaseLocal configuration.ConfigXML#isDatabaseLocal()Z
+open dataaccess.DataAccessGertaerakSortu#open(Z)V

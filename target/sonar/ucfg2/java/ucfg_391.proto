@@ -1,18 +1,127 @@
 
-5domain.Registered#getBankAccount()Ljava/lang/Integer;P
-D/home/ioritztubio/git/siProyect/src/main/java/domain/Registered.javaÇ Ç("1*«
+pdataaccess.DataAccess#apostuaSortu(Ljava/util/Vector;Ljava/lang/Double;Ldomain/Registered;)Ldomain/ApustuAnitza;º
+­/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/dataaccess/DataAccess.javaç ç(""1*°
 1
-È	 È(q
-o
+è è(z
+x
 
-È	 È(
-%0java.lang.Integer"__id*B
+è è(%
+%0javax.persistence.EntityManager"__id*=
 
-__unknown_file (&*$
-domain.Registered"
-bankAccount"'
+__unknown_file (!*
+dataaccess.DataAccess"
+dbèå
 
-È È(
-
-%0java.lang.IntegerB
-domain.RegisteredH
+è è()
+%1#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*C
+
+__unknown_file ('
+%
+%0javax.persistence.EntityManager2getTransaction()›˜
+
+è è(
+
+%2void",javax.persistence.EntityTransaction#begin()V*G
+
+__unknown_file (+
+)
+%1#javax.persistence.EntityTransaction2begin()><
+
+é" é(.
+%3domain.ApustuAnitza"domain.ApustuAnitza…
+‚
+
+é é(<
+%4"Bdomain.ApustuAnitza#<init>(Ldomain/Registered;Ljava/lang/Double;)V*7
+
+__unknown_file (
+
+%3domain.ApustuAnitza*7
+
+__unknown_file (
+
+userdomain.Registered*8
+
+__unknown_file (
+
+balioajava.lang.Doubler
+p
+
+é é(=#
+apustuAnitzadomain.ApustuAnitza"__id*7
+
+__unknown_file (
+
+%3domain.ApustuAnitzaz
+x
+
+ê ê(%
+%5javax.persistence.EntityManager"__id*=
+
+__unknown_file (!*
+dataaccess.DataAccess"
+dbþû
+
+ê ê(
+
+%6void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*C
+
+__unknown_file ('
+%
+%5javax.persistence.EntityManager*A
+
+__unknown_file (%
+#
+apustuAnitzadomain.ApustuAnitza2persist(Ljava/lang/Object;)£
+ 
+
+ë ë(*
+
+%7void"Sdataaccess.DataAccess#kuotetanApostuaEgin(Ljava/util/Vector;Ldomain/ApustuAnitza;)V*5
+
+__unknown_file (
+dataaccess.DataAccess*7
+
+__unknown_file (
+
+quotejava.util.Vector*A
+
+__unknown_file (%
+#
+apustuAnitzadomain.ApustuAnitzaz
+x
+
+ì ì(%
+%8javax.persistence.EntityManager"__id*=
+
+__unknown_file (!*
+dataaccess.DataAccess"
+dbèå
+
+ì ì()
+%9#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*C
+
+__unknown_file ('
+%
+%8javax.persistence.EntityManager2getTransaction()ž›
+
+ì ì(
+%10void"-javax.persistence.EntityTransaction#commit()V*G
+
+__unknown_file (+
+)
+%9#javax.persistence.EntityTransaction2commit()"3
+
+í í(%
+#
+apustuAnitzadomain.ApustuAnitza:'
+
+ç# ç(7
+quotejava.util.Vector:(
+
+ç8 ç(F
+balioajava.lang.Double:'
+
+çG ç(V
+userdomain.RegisteredB
+dataaccess.DataAccess

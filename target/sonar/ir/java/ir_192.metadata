@@ -1,4 +1,5 @@
-gui.MugimenduakBistaratuGUI#instance-init#
-gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-javax.swing.DefaultListModel#instance-init#
-javax.swing.DefaultListModel#<init>()V
+businessLogic.BLFacadeImplementation#findApustua(Ldomain/Registered;)Ljava/util/List;
+==
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V
+findApustua dataaccess.DataAccess#findApustua(Ldomain/Registered;)Ljava/util/List;

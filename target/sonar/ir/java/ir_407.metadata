@@ -1,5 +1,6 @@
-domain.Apustua#galdutaMarkatu(Ldomain/Quote;)Z
+gui.MainGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;
+javax.swing.JRadioButton#instance-init#
+javax.swing.JRadioButton#<init>(Ljava/lang/String;)V
 ==
-getQuestionNumber domain.Question#getQuestionNumber()Ljava/lang/Integer;
-getQuestion domain.Quote#getQuestion()Ldomain/Question;
-getQuoteNumber domain.Quote#getQuoteNumber()Ljava/lang/Integer;
+add javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V

@@ -1,3 +1,5 @@
-domain.Registered#removeApustua(Ldomain/ApustuAnitza;)V
+dataaccess.DataAccess#findSport(Ldomain/Event;)Ldomain/Sport;
 ==
-remove java.util.Vector#remove(Ljava/lang/Object;)Z
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+getSport domain.Event#getSport()Ldomain/Sport;
+getEventNumber domain.Event#getEventNumber()Ljava/lang/Integer;

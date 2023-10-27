@@ -1,1 +1,3 @@
-domain.Event#setQuestions(Ljava/util/Vector;)V
+dataaccess.DataAccessGertaerakKopiatu#<init>()V
+==
+<init> dataaccess.DataAccessGertaerakKopiatu#<init>(Z)V

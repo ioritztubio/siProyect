@@ -1,15 +1,15 @@
 
-1domain.Jarraitzailea#getNori()Ldomain/Registered;Q
-G/home/ioritztubio/git/siProyect/src/main/java/domain/Jarraitzailea.java0 0("1*¡
-11	 1(k
-i
-1	 1(
-%0domain.Registered"__id*>
+<gui.RegisteredGUI#getBusinessLogic()LbusinessLogic/BLFacade;´
+©/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/gui/RegisteredGUI.java& &(("1*¶
+1'	 '({
+y
+'	 '(
+%0businessLogic.BLFacade"__id*I
 
-__unknown_file ("* 
-domain.Jarraitzailea"
-nori"%
-1 1(
-
-%0domain.RegisteredB
-domain.JarraitzaileaH
+__unknown_file (-*+
+gui.RegisteredGUI"
+appFacadeInterface"*
+' '(
+
+%0businessLogic.BLFacadeB"
+gui.RegisteredGUIH

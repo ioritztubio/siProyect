@@ -1,4 +1,4 @@
-domain.ApustuAnitza#galdutaMarkatu()Z
-java.lang.String#equals(Ljava/lang/Object;)Z
-==
-getEgoera domain.Apustua#getEgoera()Ljava/lang/String;
+gui.ApustuakEzabatuGUI#instance-init#
+javax.swing.DefaultComboBoxModel#<init>()V
+gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+javax.swing.DefaultComboBoxModel#instance-init#

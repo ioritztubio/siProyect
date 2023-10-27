@@ -1,1 +1,3 @@
-domain.Quote#setApustuak(Ljava/util/Vector;)V
+exceptions.ApustuaAlreadyExist#<init>()V
+==
+<init> java.lang.Exception#<init>()V

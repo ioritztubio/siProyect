@@ -1,1 +1,3 @@
-configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;
+domain.Apustua#eguneratuApustuKant(Ldomain/Sport;)V
+==
+eguneratuApustuKantitatea domain.Sport#eguneratuApustuKantitatea()V

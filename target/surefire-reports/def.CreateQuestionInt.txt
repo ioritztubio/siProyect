@@ -2,11 +2,11 @@
 Test set: def.CreateQuestionInt
 -------------------------------------------------------------------------------
 Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.11 sec <<< FAILURE! - in def.CreateQuestionInt
-test1(def.CreateQuestionInt)  Time elapsed: 0.029 sec  <<< ERROR!
+test1(def.CreateQuestionInt)  Time elapsed: 0.032 sec  <<< ERROR!
 java.util.MissingResourceException: Can't find bundle for base name Etiquetas, locale es_ES
-	at def.CreateQuestionInt.test1(CreateQuestionInt.java:67)
+	at def.CreateQuestionInt.test1(CreateQuestionInt.java:66)
 
-test2(def.CreateQuestionInt)  Time elapsed: 0.027 sec  <<< ERROR!
+test2(def.CreateQuestionInt)  Time elapsed: 0.031 sec  <<< ERROR!
 java.util.MissingResourceException: Can't find bundle for base name Etiquetas, locale es_ES
-	at def.CreateQuestionInt.test2(CreateQuestionInt.java:111)
+	at def.CreateQuestionInt.test2(CreateQuestionInt.java:110)
 

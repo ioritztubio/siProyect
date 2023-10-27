@@ -1,4 +1,3 @@
-dataAccess.DataAccess#getEventsAll()Ljava/util/List;
+domain.Question#<init>()V
 ==
-getResultList javax.persistence.TypedQuery#getResultList()Ljava/util/List;
-createQuery javax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;
+<init> java.lang.Object#<init>()V

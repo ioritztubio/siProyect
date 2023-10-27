@@ -62,7 +62,7 @@
 		<sonar.organization>ioritztubio</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.projectKey>ioritztubio_siProyect</sonar.projectKey>
-		<sonar.login>2e964ddf520c0038e1b92842bbefbe3d58e9ba1f</sonar.login>
+		<sonar.login>${env.SONAR_SECRET}</sonar.login>
 	</properties>
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependencies>

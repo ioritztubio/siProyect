@@ -1,1 +1,8 @@
-domain.Transaction#setData(Ljava/util/Date;)V
+dataaccess.DataAccess#errefrak(Ldomain/Question;)V
+==
+setEgoera domain.Apustua#setEgoera(Ljava/lang/String;)V
+getApustuak domain.Quote#getApustuak()Ljava/util/Vector;
+setEgoera domain.ApustuAnitza#setEgoera(Ljava/lang/String;)V
+galdutaMarkatu domain.Apustua#galdutaMarkatu(Ldomain/Quote;)Z
+getApustuAnitza domain.Apustua#getApustuAnitza()Ldomain/ApustuAnitza;
+getQuotes domain.Question#getQuotes()Ljava/util/Vector;

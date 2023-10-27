@@ -1,1 +1,13 @@
-domain.Transaction#getTransactionNumber()Ljava/lang/Integer;
+dataaccess.DataAccess#errefrakz(Ldomain/Registered;Ldomain/ApustuAnitza;)V
+==
+get java.util.Vector#get(I)Ljava/lang/Object;
+getApustuKantitatea domain.Sport#getApustuKantitatea()Ljava/lang/Integer;
+removeApustua domain.Registered#removeApustua(Ldomain/ApustuAnitza;)V
+size java.util.Vector#size()I
+getApustuak domain.ApustuAnitza#getApustuak()Ljava/util/Vector;
+removeApustua domain.Quote#removeApustua(Ldomain/Apustua;)V
+getEvent domain.Question#getEvent()Ldomain/Event;
+setApustuKantitatea domain.Sport#setApustuKantitatea(Ljava/lang/Integer;)V
+getQuestion domain.Quote#getQuestion()Ldomain/Question;
+getKuota domain.Apustua#getKuota()Ldomain/Quote;
+getSport domain.Event#getSport()Ldomain/Sport;

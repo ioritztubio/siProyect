@@ -1,3 +1,7 @@
-gui.FindQuestionsGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V
+dataaccess.DataAccess#erabiltzaileakOrdenatu(Ljava/util/List;Ljava/util/List;)V
 ==
-setVisible java.awt.Window#setVisible(Z)V
+getIrabazitakoa domain.Registered#getIrabazitakoa()Ljava/lang/Double;
+add java.util.List#add(ILjava/lang/Object;)V
+isEmpty java.util.List#isEmpty()Z
+get java.util.List#get(I)Ljava/lang/Object;
+size java.util.List#size()I

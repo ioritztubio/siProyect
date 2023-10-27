@@ -1,1 +1,1 @@
-domain.Apustua#getApostuaNumber()Ljava/lang/Integer;
+gui.MainGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V

@@ -1,15 +1,116 @@
 
-4domain.Registered#getDiruLimitea()Ljava/lang/Double;N
-D/home/ioritztubio/git/siProyect/src/main/java/domain/Registered.javax x("1*£
-1y	 y(n
-l
-y	 y(
-%0java.lang.Double"__id*B
+Fdataaccess.DataAccess#existQuestion(Ldomain/Event;Ljava/lang/String;)Zº
+­/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/dataaccess/DataAccess.java¿ ¿("1*¥
+1
+À À(S
+Q
+
+À À(
+%0java.io.PrintStream"__id*"
 
-__unknown_file (&*$
-domain.Registered"
-diruLimitea"$
-y y(
+__unknown_file (
+""’
+
+
+À À(C
+%1java.lang.String"__concat*8
+
+À À(=*(
+&>> DataAccess: existQuestion=> event= *%
+
+À> À(C
+
+eventdomain.Eventw
+u
+
+À À(Q
+%2java.lang.String"__concat*&
+
+À À(C
 
-%0java.lang.DoubleB
-domain.RegisteredH
+%1java.lang.String*
+
+ÀD À(Q
+ question= ‡
+„
+
+À À(Z
+%3java.lang.String"__concat*&
+
+À À(Q
+
+%2java.lang.String*,
+
+ÀR À(Z
+
+questionjava.lang.StringÙÖ
+
+À À([
+
+%4void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*4
+
+__unknown_file (
+
+%3java.lang.String2println(Ljava/lang/String;)z
+x
+
+Á Á(%
+%5javax.persistence.EntityManager"__id*=
+
+__unknown_file (!*
+dataaccess.DataAccess"
+db¡ž
+
+Á" Á(8
+%6java.lang.Integer"0domain.Event#getEventNumber()Ljava/lang/Integer;*3
+
+__unknown_file (
+
+eventdomain.Event2getEventNumber()ËÈ
+
+Á Á(9
+%7domain.Event"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
+
+__unknown_file ('
+%
+%5javax.persistence.EntityManager*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%6java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)Z
+X
+
+Á Á(:
+evdomain.Event"__id*0
+
+__unknown_file (
+
+%7domain.Eventêç
+
+Â	 Â((
+%8boolean"4domain.Event#DoesQuestionExists(Ljava/lang/String;)Z*0
+
+__unknown_file (
+
+evdomain.Event*:
+
+__unknown_file (
+
+questionjava.lang.String2&DoesQuestionExists(Ljava/lang/String;)"
+
+Â Â()
+"":#
+
+¿ ¿(*
+eventdomain.Event:*
+
+¿+ ¿(:
+questionjava.lang.StringB
+dataaccess.DataAccessHX

@@ -1,133 +1,73 @@
 
-.domain.Registered#toString()Ljava/lang/String;P
-D/home/ioritztubio/git/siProyect/src/main/java/domain/Registered.java© ©("3*Œ
-2
-«
- «(œ™
+Jdataaccess.DataAccess#findEventFromApustua(Ldomain/Apustua;)Ldomain/Event;º
+­/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/dataaccess/DataAccess.java§ §(""1*À	
+1
+¨ ¨(z
+x
 
-«
- «(
-%2java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*1
+¨ ¨(%
+%0javax.persistence.EntityManager"__id*=
 
-__unknown_file (
-domain.Registered2getUsername()m
-k
+__unknown_file (!*
+dataaccess.DataAccess"
+db¥¢
 
-«
- «("
-%3java.lang.String"__concat*&
-
-«
- «(
-
-%2java.lang.String*
-
-« «("
- n
-l
-
-«
- «(0
-%4java.lang.String"__concat*&
-
-«
- «("
-
-%3java.lang.String*
-
-«% «(0
-""n
-l
-
-«
- «(6
-%5java.lang.String"__concat*&
-
-«
- «(0
-
-%4java.lang.String*
-
-«2 «(6
-: q
-o
-
-«9 «(J
-%6java.lang.Double"__id*C
+¨' ¨(;
+%1java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*1
 
-__unknown_file ('*%
-domain.Registered"
-irabazitakoa€
-~
+__unknown_file (
+
+qdomain.Apustua2getApostuaNumber()ÍÊ
 
-«
- «(J
-%7java.lang.String"__concat*&
-
-«
- «(6
-
-%5java.lang.String*&
-
-«9 «(J
-
-%6java.lang.Doubleo
-m
-
-«
- «(P
-%8java.lang.String"__concat*&
-
-«
- «(J
-
-%7java.lang.String*
-
-«M «(P
-ï¿½"&
-
-« «(Q
-
-%8java.lang.String*´
-3
-ª ª(	i
-g
-
-ª ª(
-%0java.lang.String"__id*;
+¨ ¨(<
+%2domain.Apustua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
 
-__unknown_file (*
-domain.Registered"
-mode¯
-¬
-
-ª ª(
-%1boolean"	__compare*"
+__unknown_file ('
+%
+%0javax.persistence.EntityManager*"
 
 __unknown_file (
-==*4
+""*5
 
-__unknown_file (
-
-%0java.lang.String**
+__unknown_file (
+
+%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)_
+]
+
+¨ ¨(=
+quodomain.Apustua"__id*2
 
-__unknown_file (
+__unknown_file (
+
+%2domain.ApustuaŠ
 
-RankingGUI*
-2
-1*Ö
-1
-­
- ­(œ™
-
-­
- ­(
-%9java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*1
+©	 ©(
+%3domain.Quote"'domain.Apustua#getKuota()Ldomain/Quote;*3
 
-__unknown_file (
-domain.Registered2getUsername()"&
+__unknown_file (
+
+quodomain.Apustua2
+getKuota()”‘
 
-­ ­(
-
-%9java.lang.StringB
-domain.RegisteredH
+©	 ©(%
+%4domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*0
+
+__unknown_file (
+
+%3domain.Quote2getQuestion()Ž‹
+
+©	 ©(0
+%5domain.Event"(domain.Question#getEvent()Ldomain/Event;*3
+
+__unknown_file (
+
+%4domain.Question2
+getEvent()""
+
+© ©(1
+
+%5domain.Event:!
+
+§# §(,
+qdomain.ApustuaB
+dataaccess.DataAccessH

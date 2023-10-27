@@ -1,6 +1,5 @@
-gui.GertaerakKopiatuGUI#newDate(III)Ljava/util/Date;
-java.util.Calendar#getInstance()Ljava/util/Calendar;
-java.util.Calendar#set(IIIIII)V
-java.util.Calendar#getTime()Ljava/util/Date;
+domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;
+domain.Question#<init>(Ljava/lang/String;DLdomain/Event;)V
+domain.Question#instance-init#
 ==
-set java.util.Calendar#set(II)V
+add java.util.Vector#add(Ljava/lang/Object;)Z

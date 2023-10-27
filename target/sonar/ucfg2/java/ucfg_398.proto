@@ -1,15 +1,98 @@
 
-8domain.Transaction#getErabiltzailea()Ldomain/Registered;O
-E/home/ioritztubio/git/siProyect/src/main/java/domain/Transaction.java/ /(#"1*§
-10	 0(q
-o
-0	 0(
-%0domain.Registered"__id*D
+Fdataaccess.DataAccess#findApustua(Ldomain/Registered;)Ljava/util/List;º
+­/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/dataaccess/DataAccess.javaµ µ(!"1*ô
+1
+¶! ¶(#z
+x
+
+¶! ¶(#%
+%0javax.persistence.EntityManager"__id*=
 
-__unknown_file ((*&
-domain.Transaction"
-erabiltzaile"%
-0 0(
-
-%0domain.RegisteredB
-domain.TransactionH
+__unknown_file (!*
+dataaccess.DataAccess"
+dbŸœ
+
+¶; ¶(J
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*4
+
+__unknown_file (
+
+udomain.Registered2getUsername()ÏÌ
+
+¶! ¶(K
+%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
+
+__unknown_file ('
+%
+%0javax.persistence.EntityManager*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)z
+x
+
+· ·(!%
+%3javax.persistence.EntityManager"__id*=
+
+__unknown_file (!*
+dataaccess.DataAccess"
+dbœ™
+
+· ·(|"
+%4javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*C
+
+__unknown_file ('
+%
+%3javax.persistence.EntityManager*\
+
+__unknown_file (@>
+<SELECT a FROM Apustua a WHERE a.getUser().getUsername() =?1 *"
+
+__unknown_file (
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)~
+|
+
+· ·(}&
+Aqueryjavax.persistence.TypedQuery"__id*@
+
+__unknown_file ($
+"
+%4javax.persistence.TypedQueryŸœ
+
+¸ ¸((
+%5java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*4
+
+__unknown_file (
+
+udomain.Registered2getUsername()ÒÏ
+
+¸ ¸()"
+%6javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*D
+
+__unknown_file ((
+&
+Aqueryjavax.persistence.TypedQuery* 
+
+__unknown_file (2*4
+
+__unknown_file (
+
+%5java.lang.String2!setParameter(ILjava/lang/Object;)º·
+
+¹	 ¹(
+%7java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*D
+
+__unknown_file ((
+&
+Aqueryjavax.persistence.TypedQuery2getResultList()"$
+
+¹ ¹( 
+
+%7java.util.List:$
+
+µ" µ(.
+udomain.RegisteredB
+dataaccess.DataAccessH

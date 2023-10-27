@@ -1,1 +1,3 @@
-domain.Question#getQuestionNumber()Ljava/lang/Integer;
+gui.SugerenciasGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+==
+setVisible java.awt.Window#setVisible(Z)V

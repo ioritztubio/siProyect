@@ -1,5 +1,5 @@
-businessLogic.BLFacadeImplementation#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Registered;
+businessLogic.BLFacadeImplementation#findSport(Ldomain/Event;)Ldomain/Sport;
 ==
-isLogin dataAccess.DataAccess#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Registered;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open(Z)V
+open dataaccess.DataAccess#open(Z)V
+findSport dataaccess.DataAccess#findSport(Ldomain/Event;)Ldomain/Sport;
+close dataaccess.DataAccess#close()V

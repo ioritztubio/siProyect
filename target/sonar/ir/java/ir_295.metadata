@@ -1,1 +1,1 @@
-exceptions.QuoteAlreadyExist#instance-init#
+domain.Registered#getMode()Ljava/lang/String;

@@ -1,1 +1,9 @@
-domain.Registered#getBankAccount()Ljava/lang/Integer;
+dataaccess.DataAccess#apostuaSortu(Ljava/util/Vector;Ljava/lang/Double;Ldomain/Registered;)Ldomain/ApustuAnitza;
+dataaccess.DataAccess#kuotetanApostuaEgin(Ljava/util/Vector;Ldomain/ApustuAnitza;)V
+domain.ApustuAnitza#instance-init#
+domain.ApustuAnitza#<init>(Ldomain/Registered;Ljava/lang/Double;)V
+==
+persist javax.persistence.EntityManager#persist(Ljava/lang/Object;)V
+begin javax.persistence.EntityTransaction#begin()V
+getTransaction javax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;
+commit javax.persistence.EntityTransaction#commit()V

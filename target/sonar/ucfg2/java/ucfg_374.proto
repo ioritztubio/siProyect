@@ -1,18 +1,57 @@
 
-:domain.Registered#getJarraitzaileLista()Ljava/util/Vector;P
-D/home/ioritztubio/git/siProyect/src/main/java/domain/Registered.javaÄ Ä(2"1*ß
+5dataaccess.DataAccess#isRegister(Ljava/lang/String;)Z∫
+≠/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/dataaccess/DataAccess.javaŒ Œ("1*à
 1
-Å	 Å(n
-l
+œ œ(z
+x
 
-Å	 Å(
-%0java.util.Vector"__id*@
+œ œ(%
+%0javax.persistence.EntityManager"__id*=
 
-__unknown_file ($*"
-domain.Registered"
-	niriLista"&
+__unknown_file (!*
+dataaccess.DataAccess"
+db’“
 
-Å Å(
+œ œ(4
+%1domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
+
+__unknown_file ('
+%
+%0javax.persistence.EntityManager*"
+
+__unknown_file (
+""*:
+
+__unknown_file (
+
+usernamejava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)c
+a
+
+œ œ(5
+udomain.Registered"__id*5
+
+__unknown_file (
+
+%1domain.Registeredß
+§
+
+–
+ –(
+%2boolean"	__compare*"
+
+__unknown_file (
+!=*4
+
+__unknown_file (
 
-%0java.util.VectorB
-domain.RegisteredH
+udomain.Registered*"
+
+__unknown_file (
+"""
+
+– –(
+"":*
+
+Œ Œ(*
+usernamejava.lang.StringB
+dataaccess.DataAccessHX

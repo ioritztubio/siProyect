@@ -1,3 +1,5 @@
-domain.ApustuAnitza#<init>()V
+domain.Event#DoesQuestionExists(Ljava/lang/String;)Z
+java.lang.String#compareTo(Ljava/lang/String;)I
 ==
-<init> java.lang.Object#<init>()V
+getQuestions domain.Event#getQuestions()Ljava/util/Vector;
+getQuestion domain.Question#getQuestion()Ljava/lang/String;

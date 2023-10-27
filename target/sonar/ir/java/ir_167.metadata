@@ -1,1 +1,6 @@
-domain.Event#getQuestions()Ljava/util/Vector;
+dataaccess.DataAccessGertaerakKopiatu#<init>(Z)V
+==
+getDataBaseOpenMode configuration.ConfigXML#getDataBaseOpenMode()Ljava/lang/String;
+println java.io.PrintStream#println(Ljava/lang/String;)V
+isDatabaseLocal configuration.ConfigXML#isDatabaseLocal()Z
+open dataaccess.DataAccessGertaerakKopiatu#open(Z)V

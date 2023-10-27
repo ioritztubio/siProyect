@@ -1,1 +1,17 @@
-domain.Transaction#getMota()Ljava/lang/String;
+dataaccess.DataAccess#gertaeraEzabatu(Ldomain/Event;)Z
+java.util.Date#<init>()V
+dataaccess.DataAccess#osatu(Ljavax/persistence/TypedQuery;)V
+java.util.Date#instance-init#
+==
+setParameter javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;
+createQuery javax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;
+begin javax.persistence.EntityTransaction#begin()V
+getQuestions domain.Event#getQuestions()Ljava/util/Vector;
+getTransaction javax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+getEventDate domain.Event#getEventDate()Ljava/util/Date;
+remove javax.persistence.EntityManager#remove(Ljava/lang/Object;)V
+getResult domain.Question#getResult()Ljava/lang/String;
+getEventNumber domain.Event#getEventNumber()Ljava/lang/Integer;
+compareTo java.util.Date#compareTo(Ljava/util/Date;)I
+commit javax.persistence.EntityTransaction#commit()V

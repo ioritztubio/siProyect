@@ -1,1 +1,16 @@
-domain.Registered#setPassword(Ljava/lang/String;)V
+dataaccess.DataAccess#apustuAnitzakKudeatu(Ljava/lang/Double;Ljava/lang/Integer;Ldomain/Registered;Ldomain/ApustuAnitza;)Ljava/lang/Integer;
+java.util.Date#<init>()V
+domain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
+java.util.Date#instance-init#
+dataaccess.DataAccess#apostuakZenbatu(Ldomain/ApustuAnitza;)V
+domain.Transaction#instance-init#
+==
+addApustuAnitza domain.Registered#addApustuAnitza(Ldomain/ApustuAnitza;)V
+persist javax.persistence.EntityManager#persist(Ljava/lang/Object;)V
+getApustuAnitzaNumber domain.ApustuAnitza#getApustuAnitzaNumber()Ljava/lang/Integer;
+setApustuKopia domain.ApustuAnitza#setApustuKopia(Ljava/lang/Integer;)V
+begin javax.persistence.EntityTransaction#begin()V
+getTransaction javax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;
+updateDiruKontua domain.Registered#updateDiruKontua(Ljava/lang/Double;)V
+addTransaction domain.Registered#addTransaction(Ldomain/Transaction;)V
+commit javax.persistence.EntityTransaction#commit()V

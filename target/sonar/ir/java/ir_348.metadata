@@ -1,1 +1,5 @@
-domain.Registered#isAdmin()Z
+dataaccess.DataAccess#apostuaJadanikExistitzenAhalDa(Ldomain/ApustuAnitza;Ldomain/Jarraitzailea;)Ljava/lang/Boolean;
+==
+getNork domain.Jarraitzailea#getNork()Ldomain/Registered;
+getApustuKopia domain.ApustuAnitza#getApustuKopia()Ljava/lang/Integer;
+getApustuAnitzak domain.Registered#getApustuAnitzak()Ljava/util/Vector;

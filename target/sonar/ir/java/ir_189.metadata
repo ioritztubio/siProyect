@@ -1,2 +1,5 @@
-domain.Event#equals(Ljava/lang/Object;)Z
-java.lang.Object#getClass()Ljava/lang/Class;
+businessLogic.BLFacadeImplementation#findQuote(Ldomain/Question;)Ljava/util/Collection;
+==
+findQuote dataaccess.DataAccess#findQuote(Ldomain/Question;)Ljava/util/Collection;
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

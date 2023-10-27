@@ -1,1 +1,3 @@
-domain.Question#setQuestion(Ljava/lang/String;)V
+gui.GertaerakKopiatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+==
+setVisible java.awt.Window#setVisible(Z)V

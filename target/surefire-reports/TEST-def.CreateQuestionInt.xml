@@ -5,7 +5,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.8.1+1"/>
     <property name="sun.boot.library.path" value="/snap/eclipse/73/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/ioritztubio/git/siProyect"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/ioritztubio/git/siProyect"/>
+    <property name="user.dir" value="/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="17.0.8.1+1"/>
     <property name="os.arch" value="amd64"/>
@@ -23,7 +23,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/ioritztubio/Documents/UNI/3/1/SI2/ProiektWorkspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8522918866203077091.tmp"/>
+    <property name="classworlds.conf" value="/home/ioritztubio/Documents/UNI/3/1/SI2/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf192416181217319200.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
@@ -31,7 +31,7 @@
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.2.0-34-generic"/>
+    <property name="os.version" value="6.2.0-35-generic"/>
     <property name="user.home" value="/home/ioritztubio"/>
     <property name="user.timezone" value="Europe/Madrid"/>
     <property name="file.encoding" value="UTF-8"/>
@@ -48,7 +48,7 @@
     <property name="java.version" value="17.0.8.1"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="maven.home" value="/home/ioritztubio/git/siProyect/EMBEDDED"/>
+    <property name="maven.home" value="/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/EMBEDDED"/>
     <property name="style.color" value="always"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2023-08-24"/>
@@ -56,11 +56,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
-    <property name="m2e.build.project.data.socket.port" value="36465"/>
+    <property name="m2e.build.project.data.socket.port" value="38609"/>
   </properties>
-  <testcase name="test1" classname="def.CreateQuestionInt" time="0.029">
+  <testcase name="test1" classname="def.CreateQuestionInt" time="0.032">
     <error message="Can&apos;t find bundle for base name Etiquetas, locale es_ES" type="java.util.MissingResourceException">java.util.MissingResourceException: Can't find bundle for base name Etiquetas, locale es_ES
-	at def.CreateQuestionInt.test1(CreateQuestionInt.java:67)
+	at def.CreateQuestionInt.test1(CreateQuestionInt.java:66)
 </error>
     <system-out><![CDATA[Creating DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
 Opening DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
@@ -111,9 +111,9 @@ Finally true
     <system-err><![CDATA[[ObjectDB 2.8.1] javax.persistence.RollbackException
 Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Team:'Alaves') (error 613)
 	at com.objectdb.jpa.EMImpl.commit(EMImpl.java:289)
-	at dataAccess.DataAccess.initializeDB(DataAccess.java:595)
+	at dataaccess.DataAccess.initializeDB(DataAccess.java:594)
 	at businessLogic.BLFacadeImplementation.<init>(BLFacadeImplementation.java:56)
-	at def.CreateQuestionInt.setUpClass(CreateQuestionInt.java:38)
+	at def.CreateQuestionInt.setUpClass(CreateQuestionInt.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -161,9 +161,9 @@ Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary ke
 	... 21 more
 ]]></system-err>
   </testcase>
-  <testcase name="test2" classname="def.CreateQuestionInt" time="0.027">
+  <testcase name="test2" classname="def.CreateQuestionInt" time="0.031">
     <error message="Can&apos;t find bundle for base name Etiquetas, locale es_ES" type="java.util.MissingResourceException">java.util.MissingResourceException: Can't find bundle for base name Etiquetas, locale es_ES
-	at def.CreateQuestionInt.test2(CreateQuestionInt.java:111)
+	at def.CreateQuestionInt.test2(CreateQuestionInt.java:110)
 </error>
     <system-out><![CDATA[Opening TestDataAccess instance 
 >> DataAccessTest: addEvent

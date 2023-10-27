@@ -1,1 +1,3 @@
-domain.ApustuAnitza#setEgoera(Ljava/lang/String;)V
+dataaccess.DataAccessGertaerakSortu#<init>()V
+==
+<init> dataaccess.DataAccessGertaerakSortu#<init>(Z)V

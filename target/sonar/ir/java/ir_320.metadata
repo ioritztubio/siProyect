@@ -1,1 +1,2 @@
-domain.Registered#setApustuAnitzak(Ljava/util/Vector;)V
+dataaccess.DataAccess#instance-init#
+configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;

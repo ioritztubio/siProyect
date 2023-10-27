@@ -1,7 +1,7 @@
 organization=ioritztubio
 projectKey=ioritztubio_siProyect
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.47838
+serverVersion=8.0.0.49405
 dashboardUrl=https://sonarcloud.io/dashboard?id=ioritztubio_siProyect
-ceTaskId=AYtG-zlbJQvIIn_DGD_r
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYtG-zlbJQvIIn_DGD_r
+ceTaskId=AYtxehqJPHejF5k6okf9
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYtxehqJPHejF5k6okf9

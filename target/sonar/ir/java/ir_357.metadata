@@ -1,1 +1,6 @@
-domain.Transaction#setDirua(Ljava/lang/Double;)V
+dataaccess.DataAccess#irabaziaKalkulatu(Ldomain/ApustuAnitza;)Ljava/lang/Double;
+==
+getApustuak domain.ApustuAnitza#getApustuak()Ljava/util/Vector;
+getQuote domain.Quote#getQuote()Ljava/lang/Double;
+getKuota domain.Apustua#getKuota()Ldomain/Quote;
+getBalioa domain.ApustuAnitza#getBalioa()Ljava/lang/Double;

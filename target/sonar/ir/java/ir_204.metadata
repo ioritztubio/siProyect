@@ -1,3 +1,5 @@
-gui.DestacadosGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+businessLogic.BLFacadeImplementation#ezJarraituTaldea(Ldomain/Registered;)V
 ==
-setVisible java.awt.Window#setVisible(Z)V
+ezJarraituTaldea dataaccess.DataAccess#ezJarraituTaldea(Ldomain/Registered;)V
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

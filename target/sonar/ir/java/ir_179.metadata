@@ -1,1 +1,5 @@
-domain.Event#setSport(Ldomain/Sport;)V
+businessLogic.BLFacadeImplementation#getEvents(Ljava/util/Date;)Ljava/util/Vector;
+==
+getEvents dataaccess.DataAccess#getEvents(Ljava/util/Date;)Ljava/util/Vector;
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

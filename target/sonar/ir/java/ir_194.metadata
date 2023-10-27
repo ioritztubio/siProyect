@@ -1,3 +1,5 @@
-gui.MugimenduakBistaratuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+businessLogic.BLFacadeImplementation#apustuaEzabatu(Ldomain/Registered;Ldomain/ApustuAnitza;)V
 ==
-setVisible java.awt.Window#setVisible(Z)V
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V
+apustuaEzabatu dataaccess.DataAccess#apustuaEzabatu(Ldomain/Registered;Ldomain/ApustuAnitza;)V

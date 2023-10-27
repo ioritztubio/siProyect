@@ -1,2 +1,5 @@
-gui.DestacadosGUI#instance-init#
-gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+businessLogic.BLFacadeImplementation#jarraitu(Ldomain/Registered;Ldomain/Registered;Ljava/lang/Double;)Z
+==
+jarraitu dataaccess.DataAccess#jarraitu(Ldomain/Registered;Ldomain/Registered;Ljava/lang/Double;)Z
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

@@ -1,5 +1,3 @@
-businessLogic.BLFacadeImplementation#gertaerakKopiatu(Ldomain/Event;Ljava/util/Date;)Z
-==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open(Z)V
-gertaerakKopiatu dataAccess.DataAccess#gertaerakKopiatu(Ldomain/Event;Ljava/util/Date;)Z
+domain.Sport#instance-init#
+java.util.Vector#<init>()V
+java.util.Vector#instance-init#

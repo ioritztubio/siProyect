@@ -1,3 +1,5 @@
-gui.ApustuakEzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+businessLogic.BLFacadeImplementation#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;
 ==
-setVisible java.awt.Window#setVisible(Z)V
+saldoaBistaratu dataaccess.DataAccess#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

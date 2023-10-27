@@ -1,4 +1,1 @@
-dataAccess.DataAccess#getAllTeams()Ljava/util/List;
-==
-getResultList javax.persistence.TypedQuery#getResultList()Ljava/util/List;
-createQuery javax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;
+domain.Question#setQuestionNumber(Ljava/lang/Integer;)V

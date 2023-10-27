@@ -1,4 +1,3 @@
-dataAccess.DataAccess#close()V
+gui.GertaerakSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
 ==
-close javax.persistence.EntityManager#close()V
-println java.io.PrintStream#println(Ljava/lang/String;)V
+setVisible java.awt.Window#setVisible(Z)V

@@ -202,6 +202,11 @@ bets,net.bytebuddy.dynamic.scaffold,MethodGraph.Compiler.Default.Key.Store.Entry
 bets,net.bytebuddy.dynamic.scaffold,TypeWriter.Default.ForInlining.WithFullProcessing.OpenedClassRemapper,6,0,0,0,2,0,1,0,1,0
 bets,net.bytebuddy.dynamic.scaffold,MethodGraph.Compiler.Default.Key.Store.Entry.Resolved,205,0,20,0,19,0,20,0,10,0
 bets,net.bytebuddy.dynamic.scaffold,TypeWriter.Default.ForInlining.ContextRegistry,11,0,0,0,4,0,3,0,3,0
+bets,dataaccess,DataAccess,1778,2045,101,7,384,454,103,7,50,6
+bets,dataaccess,DataAccessGertaerakSortu,454,126,9,9,96,29,8,7,2,4
+bets,dataaccess,ObjectdbManagerServer.new ActionListener() {...},48,0,0,0,12,0,2,0,2,0
+bets,dataaccess,ObjectdbManagerServer,192,0,2,0,43,0,3,0,2,0
+bets,dataaccess,DataAccessGertaerakKopiatu,2180,77,14,2,479,15,10,4,2,4
 bets,org.objenesis.strategy,SerializingInstantiatorStrategy,84,0,18,0,16,0,11,0,2,0
 bets,org.objenesis.strategy,SingleInstantiatorStrategy,37,0,0,0,9,0,2,0,2,0
 bets,org.objenesis.strategy,StdInstantiatorStrategy,86,0,22,0,20,0,13,0,2,0
@@ -957,7 +962,7 @@ bets,exceptions,EventFinished,7,0,0,0,4,0,2,0,2,0
 bets,javax.jdo.identity,IntIdentity,139,0,12,0,40,0,18,0,12,0
 bets,javax.jdo.identity,ShortIdentity,139,0,12,0,40,0,18,0,12,0
 bets,javax.jdo.identity,ByteIdentity,139,0,12,0,40,0,18,0,12,0
-bets,javax.jdo.identity,StringIdentity,108,0,10,0,29,0,13,0,8,0
+bets,javax.jdo.identity,StringIdentity,94,14,10,0,25,4,12,1,7,1
 bets,javax.jdo.identity,SingleFieldIdentity,131,0,16,0,41,0,23,0,15,0
 bets,javax.jdo.identity,ObjectIdentity,227,0,20,0,55,0,19,0,9,0
 bets,javax.jdo.identity,LongIdentity,155,0,16,0,45,0,20,0,12,0
@@ -1007,18 +1012,18 @@ bets,com.toedter.components,JSpinFieldBeanInfo,5,0,0,0,0,0,1,0,1,0
 bets,com.toedter.components,UTF8ResourceBundle.UTF8PropertyResourceBundle,35,0,2,0,0,0,4,0,3,0
 bets,com.toedter.components,JTitlePanel,98,0,4,0,0,0,4,0,2,0
 bets,com.toedter.components,GenericBeanInfo,106,0,11,0,0,0,9,0,2,0
-bets,domain,Apustua,65,15,6,0,22,7,14,2,11,2
+bets,domain,Apustua,62,18,6,0,20,9,13,3,10,3
 bets,domain,IntegerAdapter,14,0,2,0,4,0,4,0,3,0
-bets,domain,Transaction,58,15,0,0,18,6,12,1,12,1
-bets,domain,Sport,45,30,2,0,16,9,10,3,9,3
+bets,domain,Transaction,55,18,0,0,16,8,11,2,11,2
+bets,domain,Sport,37,38,2,0,14,11,9,4,8,4
 bets,domain,Question,101,51,4,0,28,14,15,5,13,5
-bets,domain,Quote,120,23,10,0,34,8,20,2,15,2
+bets,domain,Quote,112,31,10,0,32,10,19,3,14,3
 bets,domain,Jarraitzailea,45,0,0,0,19,0,10,0,10,0
-bets,domain,Team,46,22,0,0,15,7,9,2,9,2
-bets,domain,Registered,152,77,2,0,53,23,34,4,33,4
-bets,domain,Event,104,92,8,4,38,24,18,11,14,9
+bets,domain,Team,33,35,0,0,13,9,8,3,8,3
+bets,domain,Registered,149,80,2,0,51,25,33,5,32,5
+bets,domain,Event,101,95,8,4,37,25,17,12,13,10
 bets,domain,TeamRenderer,70,0,2,0,16,0,3,0,2,0
-bets,domain,ApustuAnitza,163,35,12,0,45,11,25,3,19,3
+bets,domain,ApustuAnitza,155,43,12,0,43,13,24,4,18,4
 bets,net.bytebuddy.implementation.bytecode.assign.reference,GenericTypeAwareAssigner,56,0,12,0,10,0,8,0,2,0
 bets,net.bytebuddy.implementation.bytecode.assign.reference,GenericTypeAwareAssigner.IsAssignableToVisitor.OfNonGenericType,23,0,2,0,5,0,3,0,2,0
 bets,net.bytebuddy.implementation.bytecode.assign.reference,GenericTypeAwareAssigner.IsAssignableToVisitor,166,0,22,0,25,0,20,0,9,0
@@ -1185,9 +1190,6 @@ bets,org.objenesis.instantiator.util,DefineClassHelper,23,0,2,0,2,0,3,0,2,0
 bets,org.objenesis.instantiator.util,ClassDefinitionUtils,114,0,2,0,19,0,5,0,4,0
 bets,org.objenesis.instantiator.util,DefineClassHelper.Java8,81,0,4,0,16,0,5,0,3,0
 bets,org.objenesis.instantiator.util,ClassUtils,32,0,0,0,8,0,4,0,4,0
-bets,dataAccess,ObjectdbManagerServer,192,0,2,0,43,0,3,0,2,0
-bets,dataAccess,DataAccess,1689,2045,99,7,352,454,87,7,35,6
-bets,dataAccess,ObjectdbManagerServer.new ActionListener() {...},48,0,0,0,12,0,2,0,2,0
 bets,javax.transaction.xa,XAException,13,0,0,0,7,0,3,0,3,0
 bets,net.bytebuddy.description.method,ParameterList.ForLoadedExecutable.Dispatcher.ForLegacyVm,31,0,0,0,5,0,4,0,4,0
 bets,net.bytebuddy.description.method,MethodDescription.Latent,110,0,2,0,35,0,13,0,12,0

@@ -1,1 +1,2 @@
-domain.Event#getEventNumber()Ljava/lang/Integer;
+gui.DestacadosGUI#instance-init#
+gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;

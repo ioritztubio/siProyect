@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="def.gertaerakSortuDABTest2" time="0.897" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.boot.library.path" value="/snap/eclipse/73/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/ioritztubio/Documents/UNI/3/1/SI2/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf192416181217319200.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2.0-35-generic"/>
+    <property name="user.home" value="/home/ioritztubio"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="ioritztubio"/>
+    <property name="java.class.path" value="/snap/eclipse/73/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always -B clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar"/>
+    <property name="java.home" value="/snap/eclipse/73/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
+    <property name="m2e.build.project.data.socket.port" value="38609"/>
+  </properties>
+  <testcase name="test1" classname="def.gertaerakSortuDABTest2" time="0.785">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at def.gertaerakSortuDABTest2.test1(gertaerakSortuDABTest2.java:50)
+</failure>
+    <system-out><![CDATA[Read from config.xml: 	 businessLogicLocal=true	 databaseLocal=true	 dataBaseOpenMode=initialize
+Creating DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
+Opening DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
+Creating TestDataAccess instance
+Opening TestDataAccess instance 
+]]></system-out>
+  </testcase>
+  <testcase name="test2" classname="def.gertaerakSortuDABTest2" time="0.003"/>
+  <testcase name="test3" classname="def.gertaerakSortuDABTest2" time="0.021"/>
+  <testcase name="test4" classname="def.gertaerakSortuDABTest2" time="0"/>
+  <testcase name="test5" classname="def.gertaerakSortuDABTest2" time="0.001"/>
+  <testcase name="test6" classname="def.gertaerakSortuDABTest2" time="0"/>
+  <testcase name="test7" classname="def.gertaerakSortuDABTest2" time="0.001"/>
+</testsuite>

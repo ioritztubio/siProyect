@@ -1,3 +1,18 @@
-domain.Transaction#<init>()V
+dataaccess.DataAccess#apustuaEzabatu(Ldomain/Registered;Ldomain/ApustuAnitza;)V
+dataaccess.DataAccess#errefrakz(Ldomain/Registered;Ldomain/ApustuAnitza;)V
+java.util.Date#<init>()V
+domain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
+java.util.Date#instance-init#
+domain.Transaction#instance-init#
 ==
-<init> java.lang.Object#<init>()V
+persist javax.persistence.EntityManager#persist(Ljava/lang/Object;)V
+getUsername domain.Registered#getUsername()Ljava/lang/String;
+getApustuAnitzaNumber domain.ApustuAnitza#getApustuAnitzaNumber()Ljava/lang/Integer;
+begin javax.persistence.EntityTransaction#begin()V
+getTransaction javax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+remove javax.persistence.EntityManager#remove(Ljava/lang/Object;)V
+updateDiruKontua domain.Registered#updateDiruKontua(Ljava/lang/Double;)V
+addTransaction domain.Registered#addTransaction(Ldomain/Transaction;)V
+commit javax.persistence.EntityTransaction#commit()V
+getBalioa domain.ApustuAnitza#getBalioa()Ljava/lang/Double;

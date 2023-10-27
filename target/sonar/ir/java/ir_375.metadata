@@ -1,12 +1,7 @@
-gui.MainGUI#getJContentPane()Ljavax/swing/JPanel;
-gui.MainGUI#getLblNewLabel()Ljavax/swing/JLabel;
-gui.MainGUI#getBoton3()Ljavax/swing/JButton;
-java.awt.GridLayout#<init>(IIII)V
-javax.swing.JPanel#<init>()V
-gui.MainGUI#getBoton2()Ljavax/swing/JButton;
-java.awt.GridLayout#instance-init#
-gui.MainGUI#getPanel()Ljavax/swing/JPanel;
-javax.swing.JPanel#instance-init#
+dataaccess.DataAccess#getEventsTeam(Ldomain/Team;)Ljava/util/List;
 ==
-add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
-setLayout java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V
+setParameter javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;
+getResultList javax.persistence.TypedQuery#getResultList()Ljava/util/List;
+createQuery javax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+getIzena domain.Team#getIzena()Ljava/lang/String;

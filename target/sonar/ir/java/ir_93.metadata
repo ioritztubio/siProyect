@@ -1,3 +1,4 @@
-domain.Question#<init>(Ljava/lang/Integer;Ljava/lang/String;DLdomain/Event;)V
-==
-<init> java.lang.Object#<init>()V
+gui.SugerenciasGUI#instance-init#
+gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+javax.swing.DefaultListModel#instance-init#
+javax.swing.DefaultListModel#<init>()V

@@ -1,19 +1,176 @@
 
-1domain.Registered#getPassword()Ljava/lang/String;P
-D/home/ioritztubio/git/siProyect/src/main/java/domain/Registered.java¿ ¿("1*¦
-1
-À	 À(m
-k
+ndataaccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Zº
+­/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/dataaccess/DataAccess.javaÈ È("3*¦
+2
+Ì Ì(+ÿ
+ü
 
-À	 À(
-%0java.lang.String"__id*?
+Ì Ì(@
+%5domain.ApustuAnitza"pdataaccess.DataAccess#apostuaSortu(Ljava/util/Vector;Ljava/lang/Double;Ldomain/Registered;)Ldomain/ApustuAnitza;*5
 
-__unknown_file (#*!
-domain.Registered"
+__unknown_file (
+dataaccess.DataAccess*7
+
+__unknown_file (
+
+quotejava.util.Vector*8
+
+__unknown_file (
+
+balioajava.lang.Double*7
+
+__unknown_file (
+
+userdomain.Registeredr
+p
 
-password"&
+Ì Ì(A#
+apustuAnitzadomain.ApustuAnitza"__id*7
+
+__unknown_file (
+
+%5domain.ApustuAnitzaï
+ì
 
-À À(
+Í Í(d
+%6java.lang.Integer"Œdataaccess.DataAccess#apustuAnitzakKudeatu(Ljava/lang/Double;Ljava/lang/Integer;Ldomain/Registered;Ldomain/ApustuAnitza;)Ljava/lang/Integer;*5
+
+__unknown_file (
+dataaccess.DataAccess*8
+
+__unknown_file (
+
+balioajava.lang.Double*I
+
+__unknown_file (-
++
+apustuBikoitzaGalarazijava.lang.Integer*7
+
+__unknown_file (
+
+userdomain.Registered*A
+
+__unknown_file (%
+#
+apustuAnitzadomain.ApustuAnitzax
+v
+
+Í Í(d+
+apustuBikoitzaGalarazijava.lang.Integer"__id*5
+
+__unknown_file (
+
+%6java.lang.Integerœ
+™
+
+Î Î(S
+
+%7void"dataaccess.DataAccess#jarraitzaileakKudeatu(Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;Ldomain/Registered;Ldomain/ApustuAnitza;)V*5
+
+__unknown_file (
+dataaccess.DataAccess*7
+
+__unknown_file (
+
+quotejava.util.Vector*8
+
+__unknown_file (
+
+balioajava.lang.Double*I
+
+__unknown_file (-
++
+apustuBikoitzaGalarazijava.lang.Integer*7
+
+__unknown_file (
+
+userdomain.Registered*A
+
+__unknown_file (%
+#
+apustuAnitzadomain.ApustuAnitza"
+
+Ï Ï(
+""*Ò
+3
+É! É(#z
+x
+
+É! É(#%
+%0javax.persistence.EntityManager"__id*=
+
+__unknown_file (!*
+dataaccess.DataAccess"
+dbŸœ
+
+É; É(J
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*4
+
+__unknown_file (
 
-%0java.lang.StringB
-domain.RegisteredH
+udomain.Registered2getUsername()ÏÌ
+
+É! É(K
+%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*C
+
+__unknown_file ('
+%
+%0javax.persistence.EntityManager*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)f
+d
+
+É É(L
+userdomain.Registered"__id*5
+
+__unknown_file (
+
+%2domain.Registered 
+
+Ë Ë(
+%3java.lang.Double"0domain.Registered#getDirukop()Ljava/lang/Double;*7
+
+__unknown_file (
+
+userdomain.Registered2getDirukop()½
+º
+
+Ë Ë(
+%4boolean"	__compare*"
+
+__unknown_file (
+>=*4
+
+__unknown_file (
+
+%3java.lang.Double*8
+
+__unknown_file (
+
+balioajava.lang.Double*
+2
+1*%
+1
+Ñ
+ Ñ("
+
+Ñ Ñ(
+"":$
+
+È È()
+udomain.Registered:'
+
+È* È(>
+quotejava.util.Vector:(
+
+È? È(M
+balioajava.lang.Double:9
+
+ÈN È(l+
+apustuBikoitzaGalarazijava.lang.IntegerB
+dataaccess.DataAccessHX

@@ -1,15 +1,17 @@
-gui.CreateQuestionGUI#paintDaysWithEvents(Lcom/toedter/calendar/JCalendar;Ljava/util/Vector;)V
-java.util.Locale#getDefault()Ljava/util/Locale;
-java.util.Calendar#setTime(Ljava/util/Date;)V
-java.util.Locale#equals(Ljava/lang/Object;)Z
-java.util.Locale#instance-init#
-java.util.Locale#<init>(Ljava/lang/String;)V
+dataaccess.DataAccess#kop(Ldomain/Event;Ldomain/Event;)V
+domain.Quote#<init>(Ljava/lang/Double;Ljava/lang/String;Ldomain/Question;)V
+domain.Question#<init>(Ljava/lang/String;DLdomain/Event;)V
+domain.Quote#instance-init#
+domain.Question#instance-init#
 ==
-getCalendar com.toedter.calendar.JCalendar#getCalendar()Ljava/util/Calendar;
-println java.io.PrintStream#println(Ljava/lang/Object;)V
-setBackground java.awt.Component#setBackground(Ljava/awt/Color;)V
-getDayChooser com.toedter.calendar.JCalendar#getDayChooser()Lcom/toedter/calendar/JDayChooser;
-getDayPanel com.toedter.calendar.JDayChooser#getDayPanel()Ljavax/swing/JPanel;
-set java.util.Calendar#set(II)V
-get java.util.Calendar#get(I)I
-getComponent java.awt.Container#getComponent(I)Ljava/awt/Component;
+getBetMinimum domain.Question#getBetMinimum()D
+listaraGehitu domain.Event#listaraGehitu(Ldomain/Question;)V
+getQuestionNumber domain.Question#getQuestionNumber()Ljava/lang/Integer;
+listaraGehitu domain.Question#listaraGehitu(Ldomain/Quote;)V
+persist javax.persistence.EntityManager#persist(Ljava/lang/Object;)V
+getQuotes domain.Question#getQuotes()Ljava/util/Vector;
+getQuestions domain.Event#getQuestions()Ljava/util/Vector;
+getQuote domain.Quote#getQuote()Ljava/lang/Double;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+getForecast domain.Quote#getForecast()Ljava/lang/String;
+getQuestion domain.Question#getQuestion()Ljava/lang/String;

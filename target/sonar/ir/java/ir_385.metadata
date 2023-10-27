@@ -1,1 +1,1 @@
-configuration.UtilDate#<init>()V
+domain.Transaction#getData()Ljava/util/Date;

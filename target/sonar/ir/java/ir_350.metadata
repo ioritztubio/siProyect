@@ -1,1 +1,9 @@
-domain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
+dataaccess.DataAccess#kuotetanApostuaEgin(Ljava/util/Vector;Ldomain/ApustuAnitza;)V
+domain.Apustua#<init>(Ldomain/ApustuAnitza;Ldomain/Quote;)V
+domain.Apustua#instance-init#
+==
+addApustua domain.ApustuAnitza#addApustua(Ldomain/Apustua;)V
+persist javax.persistence.EntityManager#persist(Ljava/lang/Object;)V
+addApustua domain.Quote#addApustua(Ldomain/Apustua;)V
+getQuoteNumber domain.Quote#getQuoteNumber()Ljava/lang/Integer;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;

@@ -1,15 +1,175 @@
 
->domain.ApustuAnitza#getApustuAnitzaNumber()Ljava/lang/Integer;P
-F/home/ioritztubio/git/siProyect/src/main/java/domain/ApustuAnitza.java@ @(%"1*Æ
-1A	 A(x
-v
-A	 A(
-%0java.lang.Integer"__id*K
+(domain.Event#equals(Ljava/lang/Object;)Z±
+§/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/domain/Event.javaö ö("startingBlock*%
+2
+£
+ £("
+
+£ £(
+""*ú
+3
+° °(b
+`
+
+° °(
+otherdomain.Event"__id*5
 
-__unknown_file (/*-
-domain.ApustuAnitza"
-apustuAnitzaNumber"%
-A A(
+__unknown_file (
 
-%0java.lang.IntegerB
-domain.ApustuAnitzaH
+objjava.lang.Objectl
+j
+
+¢ ¢(
+%5java.lang.Integer"__id*=
+
+__unknown_file (!*
+domain.Event"
+eventNumbers
+q
+
+¢ ¢(&
+%6java.lang.Integer"__id*D
+
+__unknown_file ((*&
+
+otherdomain.Event"
+eventNumberª
+∏
+
+¢ ¢(&
+%7boolean"	__compare*"
+
+__unknown_file (
+!=*5
+
+__unknown_file (
+
+%5java.lang.Integer*5
+
+__unknown_file (
+
+%6java.lang.Integer*
+2
+1*ä
+startingBlock
+ö ö("å
+â
+
+ô ô(
+
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+objjava.lang.ObjectY
+W
+
+ö ö(!
+objjava.lang.Object"__annotation*"
+
+__unknown_file (
+
+%8*
+9*%
+4
+†
+ †("
+
+† †(
+""*¸
+5
+ü ü(éã
+
+ü ü(
+%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*,
+
+__unknown_file (
+domain.Event2
+getClass()óî
+
+ü ü("
+%3java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*5
+
+__unknown_file (
+
+objjava.lang.Object2
+getClass()∑
+¥
+
+ü ü("
+%4boolean"	__compare*"
+
+__unknown_file (
+!=*3
+
+__unknown_file (
+
+%2java.lang.Class*3
+
+__unknown_file (
+
+%3java.lang.Class*
+3
+4*%
+6
+û
+ û("
+
+û û(
+""*¬
+7
+ù ù(	®
+•
+
+ù ù(
+%1boolean"	__compare*"
+
+__unknown_file (
+==*5
+
+__unknown_file (
+
+objjava.lang.Object*"
+
+__unknown_file (
+""*
+5
+6*%
+8
+ú
+ ú("
+
+ú ú(
+""*Ã
+9
+õ õ(
+≤
+Ø
+
+õ õ(
+%0boolean"	__compare*"
+
+__unknown_file (
+==*,
+
+__unknown_file (
+domain.Event*5
+
+__unknown_file (
+
+objjava.lang.Object*
+7
+8*%
+1
+§	 §("
+
+§ §(
+"":%
+
+ö ö(!
+objjava.lang.ObjectB
+domain.EventHX

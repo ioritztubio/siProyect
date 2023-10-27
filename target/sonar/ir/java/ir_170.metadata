@@ -1,1 +1,4 @@
-domain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;Ldomain/Team;Ldomain/Team;)V
+dataaccess.DataAccessGertaerakKopiatu#close()V
+==
+close javax.persistence.EntityManager#close()V
+println java.io.PrintStream#println(Ljava/lang/String;)V

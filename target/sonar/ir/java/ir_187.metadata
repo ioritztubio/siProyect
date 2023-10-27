@@ -1,1 +1,5 @@
-domain.Event#setKanpokoa(Ldomain/Team;)V
+businessLogic.BLFacadeImplementation#storeQuote(Ljava/lang/String;Ljava/lang/Double;Ldomain/Question;)V
+==
+storeQuote dataaccess.DataAccess#storeQuote(Ljava/lang/String;Ljava/lang/Double;Ldomain/Question;)Ldomain/Quote;
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

@@ -1,1 +1,1 @@
-configuration.ConfigXML#getDatabasePort()I
+domain.Apustua#getApostuaNumber()Ljava/lang/Integer;

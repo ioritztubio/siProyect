@@ -1,15 +1,72 @@
 
-,domain.Transaction#getData()Ljava/util/Date;O
-E/home/ioritztubio/git/siProyect/src/main/java/domain/Transaction.java; ;("1*™
-1<	 <(f
-d
-<	 <(
-%0java.util.Date"__id*<
+Pdataaccess.DataAccess#irabaziaKalkulatu(Ldomain/ApustuAnitza;)Ljava/lang/Double;º
+­/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/dataaccess/DataAccess.javaÙ Ù(!"4*õ
+2
+Û Û(N
+L
+
+Û Û(
+apdomain.Apustua"__id*"
 
-__unknown_file ( *
-domain.Transaction"
-data""
-< <(
+__unknown_file (
+""‹
+ˆ
+
+Û Û(
+apdomain.Apustua"
+__arrayGet*4
+
+__unknown_file (
+
+%0java.util.Vector*"
+
+__unknown_file (
+""*
+3
+1*ã
+3
+Ü Ü(ª§
+
+Ü Ü(
+%1java.lang.Double"1domain.ApustuAnitza#getBalioa()Ljava/lang/Double;*A
+
+__unknown_file (%
+#
+apustuAnitzadomain.ApustuAnitza2getBalioa()Œ‰
+
+Ü  Ü(-
+%2domain.Quote"'domain.Apustua#getKuota()Ldomain/Quote;*2
+
+__unknown_file (
 
-%0java.util.DateB
-domain.TransactionH
+apdomain.Apustua2
+getKuota()
+
+Ü  Ü(8
+%3java.lang.Double")domain.Quote#getQuote()Ljava/lang/Double;*0
+
+__unknown_file (
+
+%2domain.Quote2
+getQuote()*
+2*Å
+4
+Û Û(®«
+
+Û Û(,
+%0java.util.Vector"3domain.ApustuAnitza#getApustuak()Ljava/util/Vector;*A
+
+__unknown_file (%
+#
+apustuAnitzadomain.ApustuAnitza2getApustuak()*
+2*%
+1
+Þ	 Þ(
+"
+
+Þ Þ(
+"":1
+
+Ù" Ù(;#
+apustuAnitzadomain.ApustuAnitzaB
+dataaccess.DataAccess

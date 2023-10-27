@@ -1,5 +1,10 @@
-businessLogic.BLFacadeImplementation#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;
+gui.AdminGUI#getJButtonEmaitzaIpini()Ljavax/swing/JButton;
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JButton#instance-init#
 ==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open(Z)V
-saldoaBistaratu dataAccess.DataAccess#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V
+setBounds java.awt.Component#setBounds(IIII)V
+setForeground javax.swing.JComponent#setForeground(Ljava/awt/Color;)V

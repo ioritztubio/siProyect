@@ -1,9 +1,88 @@
 
-domain.Registered#isAdmin()ZP
-D/home/ioritztubio/git/siProyect/src/main/java/domain/Registered.javaŒ Œ("1*%
-1
-œ	 œ("
+tdataaccess.DataAccess#apostuaJadanikExistitzenAhalDa(Ldomain/ApustuAnitza;Ldomain/Jarraitzailea;)Ljava/lang/Boolean;∫
+≠/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/dataaccess/DataAccess.javaÅ Å(/"5*Å
+2
+É É(T
+R
 
-œ œ(
-""B
-domain.RegisteredHX
+É É(
+apudomain.ApustuAnitza"__id*"
+
+__unknown_file (
+""ë
+é
+
+É É(
+apudomain.ApustuAnitza"
+__arrayGet*4
+
+__unknown_file (
+
+%1java.util.Vector*"
+
+__unknown_file (
+""*
+4
+1*ª
+4
+Ñ Ñ(	≠™
+
+Ñ Ñ(
+%2java.lang.Integer"7domain.ApustuAnitza#getApustuKopia()Ljava/lang/Integer;*8
+
+__unknown_file (
+
+apudomain.ApustuAnitza2getApustuKopia()∂≥
+
+Ñ Ñ(9
+%3java.lang.Integer"7domain.ApustuAnitza#getApustuKopia()Ljava/lang/Integer;*A
+
+__unknown_file (%
+#
+apustuAnitzadomain.ApustuAnitza2getApustuKopia()ª
+∏
+
+Ñ Ñ(9
+%4boolean"	__compare*"
+
+__unknown_file (
+==*5
+
+__unknown_file (
+
+%2java.lang.Integer*5
+
+__unknown_file (
+
+%3java.lang.Integer*
+2*Ê
+5
+É É(¢ü
+
+É É(&
+%0domain.Registered"1domain.Jarraitzailea#getNork()Ldomain/Registered;*:
+
+__unknown_file (
+
+erabdomain.Jarraitzailea2	getNork()™ß
+
+É É(9
+%1java.util.Vector"6domain.Registered#getApustuAnitzak()Ljava/util/Vector;*5
+
+__unknown_file (
+
+%0domain.Registered2getApustuAnitzak()*
+2*%
+1
+à	 à(
+"
+
+à à(
+"":1
+
+Å0 Å(J#
+apustuAnitzadomain.ApustuAnitza:*
+
+ÅK Å(]
+erabdomain.JarraitzaileaB
+dataaccess.DataAccess

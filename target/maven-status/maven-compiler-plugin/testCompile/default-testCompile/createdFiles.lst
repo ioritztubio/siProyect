@@ -1,11 +1,13 @@
-def/gertaerakKopiatuDABTest.class
 test/dataAccess/TestDataAccess.class
 def/gertaerakKopiatuDAWTest.class
-def/gertaerakKopiatuBLWMTest.class
-test/businessLogic/TestFacadeImplementation.class
 def/gertaerakSortuDABTest.class
-def/gertaerakSortuDAWTest.class
 def/CreateQuestionDAW.class
 def/CreateQuestionBLBMTest.class
 def/CreateQuestionDAB.class
+def/gertaerakKopiatuDABTest.class
+def/gertaerakKopiatuDABTest2.class
+def/gertaerakKopiatuBLWMTest.class
+def/gertaerakSortuDABTest2.class
+test/businessLogic/TestFacadeImplementation.class
+def/gertaerakSortuDAWTest.class
 def/CreateQuestionInt.class

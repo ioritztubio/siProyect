@@ -1,10 +1,14 @@
-businessLogic.BLFacadeImplementation#gertaerakSortu(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)Z
-exceptions.EventFinished#<init>(Ljava/lang/String;)V
-java.util.Date#<init>()V
-exceptions.EventFinished#instance-init#
-java.util.Date#instance-init#
+domain.TeamRenderer#getListCellRendererComponent(Ljavax/swing/JList;Ldomain/Team;IZZ)Ljava/awt/Component;
+javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V
+javax.swing.ImageIcon#<init>(Ljava/lang/String;)V
+javax.swing.ImageIcon#instance-init#
 ==
-gertaerakSortu dataAccess.DataAccess#gertaerakSortu(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)Z
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open(Z)V
-compareTo java.util.Date#compareTo(Ljava/util/Date;)I
+getImage javax.swing.ImageIcon#getImage()Ljava/awt/Image;
+setText javax.swing.JLabel#setText(Ljava/lang/String;)V
+getScaledInstance java.awt.Image#getScaledInstance(III)Ljava/awt/Image;
+setIcon javax.swing.JLabel#setIcon(Ljavax/swing/Icon;)V
+getSelectionBackground javax.swing.JList#getSelectionBackground()Ljava/awt/Color;
+getSelectionForeground javax.swing.JList#getSelectionForeground()Ljava/awt/Color;
+getIzena domain.Team#getIzena()Ljava/lang/String;
+setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V
+setForeground javax.swing.JComponent#setForeground(Ljava/awt/Color;)V

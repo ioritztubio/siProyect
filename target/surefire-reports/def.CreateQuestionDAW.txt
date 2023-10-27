@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: def.CreateQuestionDAW
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.722 sec <<< FAILURE! - in def.CreateQuestionDAW
-test1(def.CreateQuestionDAW)  Time elapsed: 0.592 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.138 sec <<< FAILURE! - in def.CreateQuestionDAW
+test1(def.CreateQuestionDAW)  Time elapsed: 0.075 sec  <<< ERROR!
 java.util.MissingResourceException: Can't find bundle for base name Etiquetas, locale es_ES
-	at def.CreateQuestionDAW.test1(CreateQuestionDAW.java:59)
+	at def.CreateQuestionDAW.test1(CreateQuestionDAW.java:58)
 

@@ -1,1 +1,8 @@
-domain.Registered#getPassword()Ljava/lang/String;
+dataaccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z
+dataaccess.DataAccess#jarraitzaileakKudeatu(Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;Ldomain/Registered;Ldomain/ApustuAnitza;)V
+dataaccess.DataAccess#apustuAnitzakKudeatu(Ljava/lang/Double;Ljava/lang/Integer;Ldomain/Registered;Ldomain/ApustuAnitza;)Ljava/lang/Integer;
+dataaccess.DataAccess#apostuaSortu(Ljava/util/Vector;Ljava/lang/Double;Ldomain/Registered;)Ldomain/ApustuAnitza;
+==
+getUsername domain.Registered#getUsername()Ljava/lang/String;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+getDirukop domain.Registered#getDirukop()Ljava/lang/Double;

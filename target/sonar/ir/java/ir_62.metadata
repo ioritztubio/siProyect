@@ -1,3 +1,1 @@
-gui.GertaeraEzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-==
-setVisible java.awt.Window#setVisible(Z)V
+domain.Question#getEvent()Ldomain/Event;

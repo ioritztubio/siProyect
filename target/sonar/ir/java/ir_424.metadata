@@ -1,1 +1,3 @@
-configuration.ConfigXML#instance-init#
+domain.Apustua#<init>(Ldomain/ApustuAnitza;Ldomain/Quote;)V
+==
+<init> java.lang.Object#<init>()V

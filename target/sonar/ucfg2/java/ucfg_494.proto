@@ -1,16 +1,78 @@
 
-7configuration.ConfigXML#getPassword()Ljava/lang/String;T
-J/home/ioritztubio/git/siProyect/src/main/java/configuration/ConfigXML.java= =("1*¶
-1>	 >(q
-o
->	 >(
-%0java.lang.String"__id*E
+*domain.Apustua#equals(Ljava/lang/Object;)Z±
+¶/home/ioritztubio/Documents/UNI/3/1/SI2/siproyect/Gang of Four - Design Patterns - Elements of Reusable Object-Oriented Software.pdf/src/main/java/domain/Apustua.javaY Y("startingBlock*!
+2\
+ \("
+\ \(
+""*ò
+3Z Z(\
+Z
+Z Z(
+adomain.Apustua"__id*3
 
-__unknown_file ()*'
-configuration.ConfigXML"
-
-password"$
-> >(
-
-%0java.lang.StringB
-configuration.ConfigXMLH
+__unknown_file (
+
+ojava.lang.Object¢
+ü
+[ [(
+%0boolean"	__compare*"
+
+__unknown_file (
+==*1
+
+__unknown_file (
+
+adomain.Apustua*"
+
+__unknown_file (
+""*
+2
+1*Ä
+startingBlockY Y( à
+Ö
+X X(
+
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*3
+
+__unknown_file (
+
+ojava.lang.ObjectU
+S
+Y Y(
+ojava.lang.Object"__annotation*"
+
+__unknown_file (
+
+%4*
+3*¬
+1^	 ^(†ù
+^	 ^( 
+%1java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*.
+
+__unknown_file (
+domain.Apustua2getApostuaNumber()£†
+^( ^(<
+%2java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*1
+
+__unknown_file (
+
+adomain.Apustua2getApostuaNumber()’“
+^	 ^(=
+%3boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%1java.lang.Integer*5
+
+__unknown_file (
+
+%2java.lang.Integer2equals(Ljava/lang/Object;)"
+^ ^(>
+"":!
+Y Y(
+ojava.lang.ObjectB
+domain.ApustuaHX

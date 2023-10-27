@@ -1,1 +1,10 @@
-domain.Transaction#toString()Ljava/lang/String;
+dataaccess.DataAccess#extracted(Ldomain/ApustuAnitza;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+==
+getUser domain.ApustuAnitza#getUser()Ldomain/Registered;
+ApustuaIrabazi dataaccess.DataAccess#ApustuaIrabazi(Ldomain/ApustuAnitza;)V
+getApustuak domain.ApustuAnitza#getApustuak()Ljava/util/Vector;
+isEmpty java.util.Vector#isEmpty()Z
+irabazitaMarkatu domain.ApustuAnitza#irabazitaMarkatu()Z
+getEgoera domain.ApustuAnitza#getEgoera()Ljava/lang/String;
+apustuaEzabatu dataaccess.DataAccess#apustuaEzabatu(Ldomain/Registered;Ldomain/ApustuAnitza;)V

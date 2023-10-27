@@ -1,1 +1,5 @@
-domain.Event#setLokala(Ldomain/Team;)V
+businessLogic.BLFacadeImplementation#storeRegistered(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
+==
+storeRegistered dataaccess.DataAccess#storeRegistered(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

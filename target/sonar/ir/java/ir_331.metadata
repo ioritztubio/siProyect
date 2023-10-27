@@ -1,1 +1,10 @@
-domain.Registered#getJarraitutakoLista()Ljava/util/Vector;
+dataaccess.DataAccess#gertaerakSortu(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)Z
+dataaccess.DataAccess#gertaeraBilatu(Ljava/lang/String;ZLjavax/persistence/TypedQuery;)Z
+dataaccess.DataAccess#gertaeraOsatu(Ljava/lang/String;Ljava/util/Date;ZLdomain/Sport;)V
+==
+setParameter javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;
+createQuery javax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;
+begin javax.persistence.EntityTransaction#begin()V
+getTransaction javax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;
+find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+commit javax.persistence.EntityTransaction#commit()V

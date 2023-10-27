@@ -1,1 +1,5 @@
-exceptions.EventFinished#instance-init#
+businessLogic.BLFacadeImplementation#rankingLortu()Ljava/util/List;
+==
+rankingLortu dataaccess.DataAccess#rankingLortu()Ljava/util/List;
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

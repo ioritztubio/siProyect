@@ -1,1 +1,11 @@
-domain.Event#getEventDate()Ljava/util/Date;
+businessLogic.BLFacadeImplementation#<init>()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+dataaccess.DataAccess#<init>(Z)V
+configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
+dataaccess.DataAccess#<init>()V
+dataaccess.DataAccess#instance-init#
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V
+getDataBaseOpenMode configuration.ConfigXML#getDataBaseOpenMode()Ljava/lang/String;
+initializeDB dataaccess.DataAccess#initializeDB()V
+close dataaccess.DataAccess#close()V

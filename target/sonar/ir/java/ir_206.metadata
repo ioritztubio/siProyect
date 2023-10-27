@@ -1,11 +1,5 @@
-businessLogic.BLFacadeImplementation#<init>()V
-dataAccess.DataAccess#instance-init#
-dataAccess.DataAccess#<init>(Z)V
-java.lang.String#equals(Ljava/lang/Object;)Z
-configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
-dataAccess.DataAccess#<init>()V
+businessLogic.BLFacadeImplementation#jarraituTaldea(Ldomain/Registered;Ldomain/Team;)V
 ==
-initializeDB dataAccess.DataAccess#initializeDB()V
-println java.io.PrintStream#println(Ljava/lang/String;)V
-getDataBaseOpenMode configuration.ConfigXML#getDataBaseOpenMode()Ljava/lang/String;
-close dataAccess.DataAccess#close()V
+jarraituTaldea dataaccess.DataAccess#jarraituTaldea(Ldomain/Registered;Ldomain/Team;)V
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

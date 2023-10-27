@@ -1,6 +1,3 @@
-dataAccess.DataAccess#findEvent(Ldomain/Quote;)Ldomain/Event;
+domain.Jarraitzailea#<init>()V
 ==
-getEvent domain.Question#getEvent()Ldomain/Event;
-getQuoteNumber domain.Quote#getQuoteNumber()Ljava/lang/Integer;
-getQuestion domain.Quote#getQuestion()Ldomain/Question;
-find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+<init> java.lang.Object#<init>()V

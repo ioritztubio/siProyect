@@ -1,1 +1,1 @@
-gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+domain.Quote#setApustuak(Ljava/util/Vector;)V

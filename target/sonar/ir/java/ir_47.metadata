@@ -1,38 +1,41 @@
-dataAccess.DataAccess#gertaeraEzabatu(Ldomain/Event;)Z
-java.util.Date#<init>()V
-java.lang.String#equals(Ljava/lang/Object;)Z
-java.util.Date#instance-init#
+gui.JarraituGUI#<init>(Ldomain/Registered;)V
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JScrollPane#instance-init#
+javax.swing.JLabel#<init>()V
+java.awt.Dimension#<init>(II)V
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+javax.swing.JTextField#instance-init#
+javax.swing.JTextField#<init>()V
+java.awt.Dimension#instance-init#
+javax.swing.JList#<init>()V
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+javax.swing.JLabel#instance-init#
+java.awt.Font#<init>(Ljava/lang/String;II)V
+java.awt.Font#instance-init#
+javax.swing.JList#instance-init#
+javax.swing.JButton#instance-init#
+javax.swing.JScrollPane#<init>(Ljava/awt/Component;)V
 ==
-getUser domain.ApustuAnitza#getUser()Ldomain/Registered;
-getApustuak domain.Quote#getApustuak()Ljava/util/Vector;
-getApustuAnitza domain.Apustua#getApustuAnitza()Ldomain/ApustuAnitza;
-begin javax.persistence.EntityTransaction#begin()V
-get java.util.List#get(I)Ljava/lang/Object;
-getQuestion domain.Quote#getQuestion()Ldomain/Question;
-ApustuaIrabazi dataAccess.DataAccess#ApustuaIrabazi(Ldomain/ApustuAnitza;)V
-getEventNumber domain.Event#getEventNumber()Ljava/lang/Integer;
-get java.util.Vector#get(I)Ljava/lang/Object;
-getResultList javax.persistence.TypedQuery#getResultList()Ljava/util/List;
-getEvent domain.Question#getEvent()Ldomain/Event;
-createQuery javax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;
-setApustuKantitatea domain.Sport#setApustuKantitatea(Ljava/lang/Integer;)V
-compareTo java.util.Date#compareTo(Ljava/util/Date;)I
-commit javax.persistence.EntityTransaction#commit()V
-size java.util.List#size()I
-getApustuKantitatea domain.Sport#getApustuKantitatea()Ljava/lang/Integer;
-setParameter javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;
-size java.util.Vector#size()I
-getApustuAnitzaNumber domain.ApustuAnitza#getApustuAnitzaNumber()Ljava/lang/Integer;
-isEmpty java.util.Vector#isEmpty()Z
-getEventDate domain.Event#getEventDate()Ljava/util/Date;
-getEgoera domain.ApustuAnitza#getEgoera()Ljava/lang/String;
-apustuaEzabatu dataAccess.DataAccess#apustuaEzabatu(Ldomain/Registered;Ldomain/ApustuAnitza;)V
-removeApustua domain.ApustuAnitza#removeApustua(Ldomain/Apustua;)V
-getApustuak domain.ApustuAnitza#getApustuak()Ljava/util/Vector;
-irabazitaMarkatu domain.ApustuAnitza#irabazitaMarkatu()Z
-getQuestions domain.Event#getQuestions()Ljava/util/Vector;
-getTransaction javax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;
-find javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
-getSport domain.Event#getSport()Ldomain/Sport;
-remove javax.persistence.EntityManager#remove(Ljava/lang/Object;)V
-getResult domain.Question#getResult()Ljava/lang/String;
+setColumns javax.swing.JTextField#setColumns(I)V
+setFont javax.swing.JComponent#setFont(Ljava/awt/Font;)V
+setVisible javax.swing.JComponent#setVisible(Z)V
+setMode domain.Registered#setMode(Ljava/lang/String;)V
+getContentPane javax.swing.JFrame#getContentPane()Ljava/awt/Container;
+get javax.swing.DefaultListModel#get(I)Ljava/lang/Object;
+addAll javax.swing.DefaultListModel#addAll(Ljava/util/Collection;)V
+setBounds java.awt.Component#setBounds(IIII)V
+rankingLortu businessLogic.BLFacade#rankingLortu()Ljava/util/List;
+setSize java.awt.Window#setSize(Ljava/awt/Dimension;)V
+setHorizontalAlignment javax.swing.JLabel#setHorizontalAlignment(I)V
+add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
+addListSelectionListener javax.swing.JList#addListSelectionListener(Ljavax/swing/event/ListSelectionListener;)V
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V
+setEnabled javax.swing.AbstractButton#setEnabled(Z)V
+setLayout java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+setOpaque javax.swing.JComponent#setOpaque(Z)V
+getSize javax.swing.DefaultListModel#getSize()I
+setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V
+setForeground javax.swing.JComponent#setForeground(Ljava/awt/Color;)V
+setModel javax.swing.JList#setModel(Ljavax/swing/ListModel;)V

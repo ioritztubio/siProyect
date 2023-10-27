@@ -42,9 +42,11 @@ gui/ApustuBerdinakGUI$1.class
 gui/DestacadosGUI$3.class
 domain/TeamRenderer.class
 domain/Team.class
+dataaccess/ObjectdbManagerServer$1.class
 gui/TaldeaJarraituGUI$1.class
 gui/RegisteredGUI$6.class
 gui/EmaitzakIpiniGUI$4.class
+dataaccess/DataAccess.class
 gui/GertaerakKopiatuGUI.class
 gui/RegisteredGUI$2.class
 domain/Jarraitzailea.class
@@ -53,9 +55,7 @@ gui/KuotakIpiniGUI$2.class
 gui/MainUserGUI$2.class
 gui/JarraituGUI.class
 gui/MainGUI$1.class
-dataAccess/DataAccess.class
 gui/SugerenciasGUI$3.class
-dataAccess/ObjectdbManagerServer.class
 exceptions/QuestionAlreadyExist.class
 gui/PopularGUI$4.class
 gui/EmaitzakIpiniGUI$5.class
@@ -70,7 +70,6 @@ gui/DestacadosGUI$4.class
 gui/RegisteredGUI$7.class
 gui/KuotakIpiniGUI$3.class
 gui/MainUserGUI$3.class
-dataAccess/ObjectdbManagerServer$1.class
 domain/Question.class
 gui/RegisteredGUI$1.class
 gui/SugerenciasGUI$4.class
@@ -119,9 +118,11 @@ exceptions/QuoteAlreadyExist.class
 gui/GertaerakSortuGUI$3.class
 gui/EmaitzakIpiniGUI.class
 gui/FindQuestionsGUI$3.class
+dataaccess/DataAccessGertaerakKopiatu.class
 gui/AdminGUI$8.class
 gui/AdminGUI$1.class
 domain/Quote.class
+dataaccess/ObjectdbManagerServer.class
 gui/MainGUI$4.class
 gui/GertaeraInfo$1.class
 domain/ApustuAnitza.class
@@ -137,6 +138,7 @@ gui/PopularGUI.class
 gui/ApustuakEzabatuGUI$2.class
 gui/EmaitzakIpiniGUI$1.class
 exceptions/ApustuaAlreadyExist.class
+dataaccess/DataAccessGertaerakSortu.class
 gui/FindQuestionsGUI.class
 gui/AdminGUI$7.class
 domain/Sport.class

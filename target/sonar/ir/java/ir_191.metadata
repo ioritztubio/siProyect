@@ -1,1 +1,5 @@
-gui.ApplicationLauncher#<init>()V
+businessLogic.BLFacadeImplementation#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z
+==
+ApustuaEgin dataaccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z
+open dataaccess.DataAccess#open(Z)V
+close dataaccess.DataAccess#close()V

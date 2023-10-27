@@ -17,52 +17,7 @@
 removeUser,domain.Team#removeUser(Ldomain/Registered;)V7
 	setEvents*domain.Team#setEvents(Ljava/util/Vector;)V5
 setIzena)domain.Team#setIzena(Ljava/lang/String;)V5
-setUsers)domain.Team#setUsers(Ljava/util/Vector;)Vjava.io.Serializablejava.lang.ObjectÀ
-dataAccess.DataAccess)
-<init>dataAccess.DataAccess#<init>()V*
-<init> dataAccess.DataAccess#<init>(Z)V}
-ApustuaEginndataAccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)ZN
-ApustuaIrabazi<dataAccess.DataAccess#ApustuaIrabazi(Ldomain/ApustuAnitza;)Vx
-
-DiruaSartujdataAccess.DataAccess#DiruaSartu(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)VE
-EmaitzakIpini4dataAccess.DataAccess#EmaitzakIpini(Ldomain/Quote;)Va
-apustuaEzabatuOdataAccess.DataAccess#apustuaEzabatu(Ldomain/Registered;Ldomain/ApustuAnitza;)V'
-closedataAccess.DataAccess#close()Vj
-createQuestionXdataAccess.DataAccess#createQuestion(Ldomain/Event;Ljava/lang/String;F)Ldomain/Question;W
-existQuestionFdataAccess.DataAccess#existQuestion(Ldomain/Event;Ljava/lang/String;)ZP
-ezJarraituTaldea<dataAccess.DataAccess#ezJarraituTaldea(Ldomain/Registered;)V_
-findApustuAnitzaKdataAccess.DataAccess#findApustuAnitza(Ldomain/Registered;)Ljava/util/List;U
-findApustuaFdataAccess.DataAccess#findApustua(Ldomain/Registered;)Ljava/util/List;J
-	findEvent=dataAccess.DataAccess#findEvent(Ldomain/Quote;)Ldomain/Event;b
-findEventFromApustuaJdataAccess.DataAccess#findEventFromApustua(Ldomain/Apustua;)Ldomain/Event;X
-findQuestionHdataAccess.DataAccess#findQuestion(Ldomain/Event;)Ljava/util/Collection;e
-findQuestionFromQuoteLdataAccess.DataAccess#findQuestionFromQuote(Ldomain/Quote;)Ldomain/Question;U
-	findQuoteHdataAccess.DataAccess#findQuote(Ldomain/Question;)Ljava/util/Collection;J
-	findSport=dataAccess.DataAccess#findSport(Ldomain/Event;)Ldomain/Sport;L
-findTeam@dataAccess.DataAccess#findTeam(Ldomain/Registered;)Ldomain/Team;_
-findTransakzioakKdataAccess.DataAccess#findTransakzioak(Ldomain/Registered;)Ljava/util/List;R
-findUserFdataAccess.DataAccess#findUser(Ldomain/Registered;)Ldomain/Registered;I
-gertaeraEzabatu6dataAccess.DataAccess#gertaeraEzabatu(Ldomain/Event;)Z[
-gertaerakKopiatuGdataAccess.DataAccess#gertaerakKopiatu(Ldomain/Event;Ljava/util/Date;)Zm
-gertaerakSortu[dataAccess.DataAccess#gertaerakSortu(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)ZB
-getAllTeams3dataAccess.DataAccess#getAllTeams()Ljava/util/List;P
-	getEventsCdataAccess.DataAccess#getEvents(Ljava/util/Date;)Ljava/util/Vector;D
-getEventsAll4dataAccess.DataAccess#getEventsAll()Ljava/util/List;Z
-getEventsMonthHdataAccess.DataAccess#getEventsMonth(Ljava/util/Date;)Ljava/util/Vector;S
-getEventsTeamBdataAccess.DataAccess#getEventsTeam(Ldomain/Team;)Ljava/util/List;5
-initializeDB%dataAccess.DataAccess#initializeDB()Va
-isLoginVdataAccess.DataAccess#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Registered;C
-
-isRegister5dataAccess.DataAccess#isRegister(Ljava/lang/String;)Ze
-jarraituYdataAccess.DataAccess#jarraitu(Ldomain/Registered;Ldomain/Registered;Ljava/lang/Double;)ZY
-jarraituTaldeaGdataAccess.DataAccess#jarraituTaldea(Ldomain/Registered;Ldomain/Team;)V&
-opendataAccess.DataAccess#open(Z)VJ
-popularrenaLortu6dataAccess.DataAccess#popularrenaLortu()Ldomain/Sport;D
-rankingLortu4dataAccess.DataAccess#rankingLortu()Ljava/util/List;_
-saldoaBistaratuLdataAccess.DataAccess#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;s
-
-storeQuoteedataAccess.DataAccess#storeQuote(Ljava/lang/String;Ljava/lang/Double;Ldomain/Question;)Ldomain/Quote;r
-storeRegistered_dataAccess.DataAccess#storeRegistered(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)Vjava.lang.Objectî
+setUsers)domain.Team#setUsers(Ljava/util/Vector;)Vjava.io.Serializablejava.lang.Objectî
 gui.GertaeraEzabatuGUI<
 <init>2gui.GertaeraEzabatuGUI#<init>(Ljava/util/Vector;)Vr
 jButtonClose_actionPerformedRgui.GertaeraEzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V<
@@ -207,22 +162,33 @@ addApustua1domain.ApustuAnitza#addApustua(Ldomain/Apustua;)V5
 gui.MugimenduakBistaratuGUIB
 <init>8gui.MugimenduakBistaratuGUI#<init>(Ldomain/Registered;)Vw
 jButtonClose_actionPerformedWgui.MugimenduakBistaratuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V/
-jbInit%gui.MugimenduakBistaratuGUI#jbInit()Vjavax.swing.JFrame≤
- dataAccess.ObjectdbManagerServer4
-<init>*dataAccess.ObjectdbManagerServer#<init>()VC
-main;dataAccess.ObjectdbManagerServer#main([Ljava/lang/String;)Vjavax.swing.JDialogﬂ
+jbInit%gui.MugimenduakBistaratuGUI#jbInit()Vjavax.swing.JFrameŸ
+#dataaccess.DataAccessGertaerakSortu7
+<init>-dataaccess.DataAccessGertaerakSortu#<init>()V8
+<init>.dataaccess.DataAccessGertaerakSortu#<init>(Z)V5
+close,dataaccess.DataAccessGertaerakSortu#close()V{
+gertaerakSortuidataaccess.DataAccessGertaerakSortu#gertaerakSortu(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)ZC
+initializeDB3dataaccess.DataAccessGertaerakSortu#initializeDB()V4
+open,dataaccess.DataAccessGertaerakSortu#open(Z)Vjava.lang.Objectﬂ
 gui.ApustuakEzabatuGUI=
 <init>3gui.ApustuakEzabatuGUI#<init>(Ldomain/Registered;)Vr
 jButtonClose_actionPerformedRgui.ApustuakEzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrameù
 exceptions.EventFinished,
 <init>"exceptions.EventFinished#<init>()V>
-<init>4exceptions.EventFinished#<init>(Ljava/lang/String;)Vjava.lang.Exception–
+<init>4exceptions.EventFinished#<init>(Ljava/lang/String;)Vjava.lang.Exception’
+%dataaccess.DataAccessGertaerakKopiatu9
+<init>/dataaccess.DataAccessGertaerakKopiatu#<init>()V:
+<init>0dataaccess.DataAccessGertaerakKopiatu#<init>(Z)V7
+close.dataaccess.DataAccessGertaerakKopiatu#close()Vk
+gertaerakKopiatuWdataaccess.DataAccessGertaerakKopiatu#gertaerakKopiatu(Ldomain/Event;Ljava/util/Date;)ZE
+initializeDB5dataaccess.DataAccessGertaerakKopiatu#initializeDB()V6
+open.dataaccess.DataAccessGertaerakKopiatu#open(Z)Vjava.lang.Object–
 gui.DestacadosGUI8
 <init>.gui.DestacadosGUI#<init>(Ldomain/Registered;)Vm
 jButtonClose_actionPerformedMgui.DestacadosGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame÷
 $businessLogic.BLFacadeImplementation8
 <init>.businessLogic.BLFacadeImplementation#<init>()VO
-<init>EbusinessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)Vå
+<init>EbusinessLogic.BLFacadeImplementation#<init>(Ldataaccess/DataAccess;)Vå
 ApustuaEgin}businessLogic.BLFacadeImplementation#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Zw
 
 DiruaSartuibusinessLogic.BLFacadeImplementation#DiruaSartu(Ldomain/Registered;Ljava/lang/Double;Ljava/lang/String;)VT
@@ -371,7 +337,70 @@ setDirukop1domain.Registered#setDirukop(Ljava/lang/Double;)VI
 setUsername2domain.Registered#setUsername(Ljava/lang/String;)V,
 	setZenbatdomain.Registered#setZenbat(I)V:
 toString.domain.Registered#toString()Ljava/lang/String;K
-updateDiruKontua7domain.Registered#updateDiruKontua(Ljava/lang/Double;)Vjava.io.Serializablejava.lang.Objectø
+updateDiruKontua7domain.Registered#updateDiruKontua(Ljava/lang/Double;)Vjava.io.Serializablejava.lang.Object≤
+ dataaccess.ObjectdbManagerServer4
+<init>*dataaccess.ObjectdbManagerServer#<init>()VC
+main;dataaccess.ObjectdbManagerServer#main([Ljava/lang/String;)Vjavax.swing.JDialogÜ(
+dataaccess.DataAccess)
+<init>dataaccess.DataAccess#<init>()V*
+<init> dataaccess.DataAccess#<init>(Z)V}
+ApustuaEginndataaccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)ZN
+ApustuaIrabazi<dataaccess.DataAccess#ApustuaIrabazi(Ldomain/ApustuAnitza;)Vx
+
+DiruaSartujdataaccess.DataAccess#DiruaSartu(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)VE
+EmaitzakIpini4dataaccess.DataAccess#EmaitzakIpini(Ldomain/Quote;)Vñ
+apostuaJadanikExistitzenAhalDatdataaccess.DataAccess#apostuaJadanikExistitzenAhalDa(Ldomain/ApustuAnitza;Ldomain/Jarraitzailea;)Ljava/lang/Boolean;Ä
+apostuaSortupdataaccess.DataAccess#apostuaSortu(Ljava/util/Vector;Ljava/lang/Double;Ldomain/Registered;)Ldomain/ApustuAnitza;P
+apostuakZenbatu=dataaccess.DataAccess#apostuakZenbatu(Ldomain/ApustuAnitza;)V•
+apustuAnitzakKudeatuådataaccess.DataAccess#apustuAnitzakKudeatu(Ljava/lang/Double;Ljava/lang/Integer;Ldomain/Registered;Ldomain/ApustuAnitza;)Ljava/lang/Integer;a
+apustuaEzabatuOdataaccess.DataAccess#apustuaEzabatu(Ldomain/Registered;Ldomain/ApustuAnitza;)V'
+closedataaccess.DataAccess#close()Vj
+createQuestionXdataaccess.DataAccess#createQuestion(Ldomain/Event;Ljava/lang/String;F)Ldomain/Question;i
+erabiltzaileakOrdenatuOdataaccess.DataAccess#erabiltzaileakOrdenatu(Ljava/util/List;Ljava/util/List;)V>
+errefrak2dataaccess.DataAccess#errefrak(Ldomain/Question;)VW
+	errefrakzJdataaccess.DataAccess#errefrakz(Ldomain/Registered;Ldomain/ApustuAnitza;)VW
+existQuestionFdataaccess.DataAccess#existQuestion(Ldomain/Event;Ljava/lang/String;)ZD
+	extracted7dataaccess.DataAccess#extracted(Ldomain/ApustuAnitza;)VP
+ezJarraituTaldea<dataaccess.DataAccess#ezJarraituTaldea(Ldomain/Registered;)V_
+findApustuAnitzaKdataaccess.DataAccess#findApustuAnitza(Ldomain/Registered;)Ljava/util/List;U
+findApustuaFdataaccess.DataAccess#findApustua(Ldomain/Registered;)Ljava/util/List;J
+	findEvent=dataaccess.DataAccess#findEvent(Ldomain/Quote;)Ldomain/Event;b
+findEventFromApustuaJdataaccess.DataAccess#findEventFromApustua(Ldomain/Apustua;)Ldomain/Event;X
+findQuestionHdataaccess.DataAccess#findQuestion(Ldomain/Event;)Ljava/util/Collection;e
+findQuestionFromQuoteLdataaccess.DataAccess#findQuestionFromQuote(Ldomain/Quote;)Ldomain/Question;U
+	findQuoteHdataaccess.DataAccess#findQuote(Ldomain/Question;)Ljava/util/Collection;J
+	findSport=dataaccess.DataAccess#findSport(Ldomain/Event;)Ldomain/Sport;L
+findTeam@dataaccess.DataAccess#findTeam(Ldomain/Registered;)Ldomain/Team;_
+findTransakzioakKdataaccess.DataAccess#findTransakzioak(Ldomain/Registered;)Ljava/util/List;R
+findUserFdataaccess.DataAccess#findUser(Ldomain/Registered;)Ldomain/Registered;j
+gertaeraBilatuXdataaccess.DataAccess#gertaeraBilatu(Ljava/lang/String;ZLjavax/persistence/TypedQuery;)ZI
+gertaeraEzabatu6dataaccess.DataAccess#gertaeraEzabatu(Ldomain/Event;)Zh
+gertaeraOsatuWdataaccess.DataAccess#gertaeraOsatu(Ljava/lang/String;Ljava/util/Date;ZLdomain/Sport;)V[
+gertaerakKopiatuGdataaccess.DataAccess#gertaerakKopiatu(Ldomain/Event;Ljava/util/Date;)Zm
+gertaerakSortu[dataaccess.DataAccess#gertaerakSortu(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)ZB
+getAllTeams3dataaccess.DataAccess#getAllTeams()Ljava/util/List;P
+	getEventsCdataaccess.DataAccess#getEvents(Ljava/util/Date;)Ljava/util/Vector;D
+getEventsAll4dataaccess.DataAccess#getEventsAll()Ljava/util/List;Z
+getEventsMonthHdataaccess.DataAccess#getEventsMonth(Ljava/util/Date;)Ljava/util/Vector;S
+getEventsTeamBdataaccess.DataAccess#getEventsTeam(Ldomain/Team;)Ljava/util/List;5
+initializeDB%dataaccess.DataAccess#initializeDB()Ve
+irabaziaKalkulatuPdataaccess.DataAccess#irabaziaKalkulatu(Ldomain/ApustuAnitza;)Ljava/lang/Double;a
+isLoginVdataaccess.DataAccess#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Registered;C
+
+isRegister5dataaccess.DataAccess#isRegister(Ljava/lang/String;)Ze
+jarraituYdataaccess.DataAccess#jarraitu(Ldomain/Registered;Ldomain/Registered;Ljava/lang/Double;)ZY
+jarraituTaldeaGdataaccess.DataAccess#jarraituTaldea(Ldomain/Registered;Ldomain/Team;)Vß
+jarraitzaileakKudeatuçdataaccess.DataAccess#jarraitzaileakKudeatu(Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;Ldomain/Registered;Ldomain/ApustuAnitza;)V?
+kop8dataaccess.DataAccess#kop(Ldomain/Event;Ldomain/Event;)Vj
+kuotetanApostuaEginSdataaccess.DataAccess#kuotetanApostuaEgin(Ljava/util/Vector;Ldomain/ApustuAnitza;)V&
+opendataaccess.DataAccess#open(Z)VE
+osatu<dataaccess.DataAccess#osatu(Ljavax/persistence/TypedQuery;)VJ
+popularrenaLortu6dataaccess.DataAccess#popularrenaLortu()Ldomain/Sport;D
+rankingLortu4dataaccess.DataAccess#rankingLortu()Ljava/util/List;_
+saldoaBistaratuLdataaccess.DataAccess#saldoaBistaratu(Ldomain/Registered;)Ljava/lang/String;s
+
+storeQuoteedataaccess.DataAccess#storeQuote(Ljava/lang/String;Ljava/lang/Double;Ldomain/Question;)Ldomain/Quote;r
+storeRegistered_dataaccess.DataAccess#storeRegistered(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)Vjava.lang.Objectø
 domain.Transaction&
 <init>domain.Transaction#<init>()Vm
 <init>cdomain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V7

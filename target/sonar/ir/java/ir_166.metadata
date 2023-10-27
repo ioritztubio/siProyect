@@ -1,3 +1,2 @@
-domain.Event#instance-init#
-java.util.Vector#<init>()V
-java.util.Vector#instance-init#
+dataaccess.DataAccessGertaerakKopiatu#instance-init#
+configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
