@@ -162,8 +162,9 @@ public class BLFacadeImplementation  implements BLFacade {
     }
     @WebMethod	
     public boolean gertaerakSortu(String description,Date eventDate, String sport) throws EventFinished{
-    	if(new Date().compareTo(eventDate)>0)
-			throw new EventFinished("Gertaera honen data dagoeneko pasa da");
+    	if(new Date().compareTo(eventDate)>0) {
+    		throw new EventFinished("Gertaera honen data dagoeneko pasa da");
+    	}
     	
     	dbManager.open(false);
     	boolean b = dbManager.gertaerakSortu(description, eventDate, sport);
