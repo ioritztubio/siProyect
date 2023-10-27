@@ -11,8 +11,7 @@ import java.util.Date;
 import org.junit.Test;
 
 import configuration.ConfigXML;
-//import dataAccess.DataAccessInterface;
-import dataAccess.DataAccess;
+import dataaccess.DataAccess;
 import domain.Event;
 import domain.Question;
 import exceptions.EventFinished;

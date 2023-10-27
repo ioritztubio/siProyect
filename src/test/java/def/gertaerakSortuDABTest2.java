@@ -14,9 +14,8 @@ import org.junit.Test;
 
 import configuration.ConfigXML;
 import configuration.UtilDate;
-//import dataAccess.DataAccessInterface;
-import dataAccess.DataAccess;
-import dataAccess.DataAccessGertaerakSortu;
+import dataaccess.DataAccess;
+import dataaccess.DataAccessGertaerakSortu;
 import domain.Event;
 import domain.Question;
 import exceptions.EventFinished;

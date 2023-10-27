@@ -13,7 +13,7 @@ import org.junit.Test;
 
 import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
-import dataAccess.DataAccess;
+import dataaccess.DataAccess;
 import domain.Event;
 import domain.Question;
 import exceptions.EventFinished;

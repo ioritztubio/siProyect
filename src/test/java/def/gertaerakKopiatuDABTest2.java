@@ -12,9 +12,8 @@ import java.util.Date;
 import org.junit.Test;
 
 import configuration.ConfigXML;
-//import dataAccess.DataAccessInterface;
-import dataAccess.DataAccess;
-import dataAccess.DataAccessGertaerakKopiatu;
+import dataaccess.DataAccess;
+import dataaccess.DataAccessGertaerakKopiatu;
 import domain.Event;
 import domain.Question;
 import exceptions.EventFinished;

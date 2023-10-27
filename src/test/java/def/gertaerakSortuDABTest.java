@@ -14,8 +14,7 @@ import org.junit.Test;
 
 import configuration.ConfigXML;
 import configuration.UtilDate;
-//import dataAccess.DataAccessInterface;
-import dataAccess.DataAccess;
+import dataaccess.DataAccess;
 import domain.Event;
 import domain.Question;
 import exceptions.EventFinished;

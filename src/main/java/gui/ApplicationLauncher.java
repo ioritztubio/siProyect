@@ -11,7 +11,7 @@ import javax.xml.ws.Service;
 import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
 import configuration.ConfigXML;
-import dataAccess.DataAccess;
+import dataaccess.DataAccess;
 
 public class ApplicationLauncher { 
 	

@@ -10,7 +10,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 import configuration.ConfigXML;
-import dataAccess.DataAccess;
+import dataaccess.DataAccess;
 import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
